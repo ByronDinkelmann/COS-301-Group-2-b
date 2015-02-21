@@ -38,7 +38,19 @@
 \clearpage
 
 \section{Searching and Filtering}
-
+\subsection{Description:}
+Users will make use of such functionality to locate hard to find information like specific phrases within posts or category headings. The user will also use this functionality be able to sieve through the forum to track down other users and/or topics.  
+\subsection{Actors:} 
+Active forum members, administrators, evaluators will be the most common users of this functionality. Guests and other passive forum members will be the uncommon users.
+\subsection{Preconditions:} 
+Guests are able to search/filter but a limited search results would be imposed depending on the search criteria. Higher level users (forum members and ranked forum members) would have less restricted search capability based on the user ranking system. Super users (Administrators and Evaluators). \subsection{Basic Flow:} 
+The actor will type in the search term and select advanced criteria (optional, less restricted based on actor rank). The search is processed, this involves database querying and third party search engines. Results displayed in a categorical fashion. Categories (posts, subjects, topics, members etc.) from the results are scanned by the actor. A Result selection leads the actor directly to the selected results origin. A search rating mechanism would occasionally ask for a search rating.  
+\subsection{Alternative Flows:} 
+For uncommon users the search is less intensive and restricted thus shallow search processing will occur. Security questions would have to be answered occasionally. The browser checked cached search results. The results would still be presented in a categorical form, but would obviously omit restricted results. 
+\subsection{Exception Flows:} 
+Unintelligible or foreign language search’ would be severely limited. However technical jargon in search terms will be accommodated to an extent. Search results with restricted content would require user login to display.
+\subsection{Post Conditions:} 
+Search results are directly linked to their displayed source. A search/filter with no hits will display related content and help for bettering the search.
 \section{Post Evaluation and Voting}
 
 \end{document}
