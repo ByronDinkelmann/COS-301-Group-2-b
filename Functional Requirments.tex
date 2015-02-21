@@ -52,5 +52,18 @@ Unintelligible or foreign language search’ would be severely limited. However 
 \subsection{Post Conditions:} 
 Search results are directly linked to their displayed source. A search/filter with no hits will display related content and help for bettering the search.
 \section{Post Evaluation and Voting}
-
+\subsection{Description:} 
+Users would occasionally be approached to assess other users and their posts on the forum, users can also willingly rate posts or topics they have read through. Evaluation criteria would include the integrity of the information in posts and the posters rank and forum activity.
+\subsection{Actors:} 
+Only forum members can participate in post evaluation and voting. There are possible exceptions like security cleared +1 members (temporary members linked to a current forum member) or forum guests that are identifiable experts   on a topic/subject. 
+\subsection{Preconditions:} 
+The actor must be a forum member or have qualified to vote based on the above mentioned exceptions. The voter must be of a certain rank to access advanced voting functionality. The voter must be clear of any bans. 
+\subsection{Basic Flow:} 
+The user will click on the voting mechanism linked to the post. The voting window will appear and the voters profile and history will be checked. The voting will then commence and allow for more or less voting capabilities based on the voters details. The vote will be submitted and the optional evaluation (for ranked voters only) will be sent to the post owner and displayed alongside the post.
+\subsection{Alternative Flows:} 
+The exception user will place a vote on a post. The linked forum member will be informed of this action. The vote and evaluation will be submitted upon the forum members’ approval. 
+\subsection{Exception Flows:} 
+The user has been banned from voting and is denied voting and evaluation rights until he/she obtains an acceptable rank or is unbanned by the forum administrator.
+\subsection{Post Conditions:} 
+The voter and vote receivers’ profiles are updated and rank re-evaluated. The vote/evaluation on the post is updated instantly. 
 \end{document}
