@@ -37,3 +37,9 @@
 \contentsline {subsection}{\numberline {0.7.6}Exception Flows:}{11}{subsection.0.7.6}
 \contentsline {subsection}{\numberline {0.7.7}Post Conditions:}{11}{subsection.0.7.7}
 \contentsline {subsection}{\numberline {0.7.8}User Case Diagram}{11}{subsection.0.7.8}
+\contentsline {section}{\numberline {0.8}Changing User Status}{12}{section.0.8}
+\contentsline {subsection}{\numberline {0.8.1}Description}{12}{subsection.0.8.1}
+\contentsline {subsection}{\numberline {0.8.2}Actors}{12}{subsection.0.8.2}
+\contentsline {subsection}{\numberline {0.8.3}Preconditions}{12}{subsection.0.8.3}
+\contentsline {subsection}{\numberline {0.8.4}Post Conditions}{12}{subsection.0.8.4}
+\contentsline {subsection}{\numberline {0.8.5}Use Case Diagram}{12}{subsection.0.8.5}
