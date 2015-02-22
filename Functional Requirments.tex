@@ -29,13 +29,115 @@
     {\normalsize Timothy Snayers u13397134\par}
     \vspace{1cm}
     
-    \hyperref[Github]{https://github.com/ByronDinkelmann/COS-301-Group-2-b.git}\par
+    \hyperref[https://github.com/ByronDinkelmann/COS-301-Group-2-b.git]{Github}\par
     \vspace{1cm}
 %Date
     {\Large February 2015}
 \end{minipage}
 \end{center}
 \clearpage
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+This document outlines the functional requirements of "The Computer Science Education Didactic and Applications Research"(CSEDAR) registered research project called "The use of Online Discussion in Teaching"(TODT). This document describes the "Buzz" system to be developed and gives insight to how to achieve this implementation for those implementing it. 
+\section{Vision}
+The research projects aim is to find ways to enhance and improve the learning of students with the use of online discussion. This online forum "Buzz" will become part of the Computer Science websites modules, creating an online space for discussion for each or where relevant. Where students, teaching assistants and lecturers can engage in activities
+related to learning the content of the specific module while applying game concepts to motivate students to increase the quality of their participation and consequently experience deeper learning of the course content. 
+\section{Background}
+The reason for this research project is the problem of engaging an extremely large number of first year students within The University of Pretoria, specifically the Computer Science Department students. Currently available tools for discussion forums lead to the problems that are hampering positive engagement of teaching staff and students. These problems consist of inexperienced users, unorganized content and low levels of excitement.
+To combat these problems the "Buzz" system intends to have the basic functionality of online forums, have automated feedback on common mistakes, have a Game-like presentation and have automated structuring.
+
+The University of Pretoria have the opportunity to teach the COS301 "Software Engineering" students while being able to improve current systems of online discussion which can be extended to benefit all students in the future. 
+
+The research project gives the students of COS301 "Software Engineering" an opportunity to learn form the experiences of designing, creating and developing this system, which include learning to work with colleagues, creating documentation, simplifying and improving the communication of lectures and students through a structured forum, using online systems for group work and the basic process of how software is designed, created and developed in business to name but a few.
+\section{Functional Requirements and application design}
+
+\subsection{Purpose}
+\begin{enumerate}
+ \item{CRUD}: To create posts on the buzz system so that users in the system can share relevant information with one another and communicate. To allow registered users and non registered users such as guests to view posts created by users of the buzz system. To allow users to update posts of which they control. To allow users to delete their own posts or to allow users with sufficient status level to delete other posts based on certain factors about that specific post.
+ \\
+\item{Message Restrictions}: To restrict users to length, content and positioning of posts based on the users status level. 
+\\
+ \item{Message Tracker}: To mark posts for each registered user so that they can keep track of which posts they have read and which users have read certain posts.
+\\
+
+ 
+\end{enumerate}
+
+\subsection{Use case prioritization}
+\subsubsection{CRUD}
+Critical
+\subsubsection{Message Restrictions}
+Critical
+\subsubsection{Message Read Tracker}
+Important
+\subsection{Use case/Service contracts}
+\subsubsection{CRUD}
+\begin{enumerate}
+ \item Pre-conditions for CRUD: The buzz system needs to be available and a connection to the buzz system possible. 
+\end{enumerate}
+\subsubsection{CRUD-Create}
+\begin{enumerate}
+ \item Pre-conditions: For a user to create posts they need to be registered of the buzz system. The user must be logged in to the buzz system.
+ \\
+ \item Post-conditions: Posts will succeed to be created and will appear in the buzz system where posted.
+  \\
+ \item Request and Result Data Structures: 
+\end{enumerate}
+
+\subsubsection{CRUD-Read}
+\begin{enumerate}
+ \item Pre-conditions: Posts must be present to be read.
+ \\
+ \item Post-conditions: Once a post has been viewed by a logged in registered user, the post should be marked as read for that specific user.
+  \\
+ \item Request and Result Data Structures:
+\end{enumerate}
+
+\subsubsection{CRUD-Update}
+\begin{enumerate}
+ \item Pre-conditions:  For a user to update posts they need to be registered of the buzz system. The user must be logged in to the buzz system. The user must be the owner of the post.
+ \\
+ \item Post-conditions: Post will be updated and shown on the buzz system to be updated.
+   \\
+ \item Request and Result Data Structures:
+\end{enumerate}
+
+\subsubsection{CRUD-Delete}
+\begin{enumerate}
+ \item Pre-conditions:  For a user to delete posts they need to be registered of the buzz system. The user must be logged in to the buzz system. The user must be the owner of the post unless a user with status level "x" views the post to be unfit. The post needs to exist for it to be deleted.
+ \\
+ \item Post-conditions: Post successfully deleted will be hidden from the other users and buzz system and archived.Posts will never be physically deleted from the system itself.
+   \\
+ \item Request and Result Data Structures:
+\end{enumerate}
+
+\subsubsection{Message Restrictions}
+\begin{enumerate}
+ \item Pre-conditions:  User must be registered on the buzz system. The buzz system needs to be available and a connection to the buzz system possible. The user must be logged in to the buzz system. User must be able to create posts. Length and content of posts must be specified by the buzz system of which the user is registered. Must have levels of posts.
+ 
+ \item Post-conditions: Post will be created and shown on the buzz system. Correct length and content of posts if buzz system is configured correctly.
+   \\
+ \item Request and Result Data Structures:
+\end{enumerate}
+
+\subsubsection{Message Read Tracker}
+\begin{enumerate}
+ \item Pre-conditions:  User must be registered on the buzz system. The user must be logged in to the buzz system. Messages must exist to be read, marked as unread and must be seen as read by other users.
+ \\
+ \item Post-conditions: Post is marked as unread.Post is marked when read and seen to be read on the buzz system.
+   \\
+ \item Request and Result Data Structures:
+\end{enumerate}
+
+
+\subsection{Required functionality}
+\subsection{Process specifications}
+\subsection{Domain Model}
+\section{Open Issues}
+
 
 \section{Searching and Filtering}
 \subsection{Description:}
