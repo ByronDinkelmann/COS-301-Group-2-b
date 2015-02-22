@@ -1,0 +1,54 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\parindent 0pt
+\parskip 2ex
+\newcommand{\startsquarepar}{%
+    \par\begingroup \parfillskip 0pt \relax}
+\newcommand{\stopsquarepar}{%
+    \par\endgroup}
+\begin{document}
+\Huge
+part1\linebreak
+Functional requirements and application design\linebreak\linebreak\linebreak
+
+\Huge \bf Vision
+
+\small \par The implementation of this project will allow users to communicate on the discussion board over topics related to learning.Users will be able to level-up and achieve more privelages such as printing in pretty-print as they use the discussion board more often.The discussion board will also be able to calculate a students average mark so they can see where they lie relatively to the rest of the group they are in.To make the board more appealing to users we will gamify it.different types of users will use the board to check their marks, help other students with issues,get help from other students and build themselves in their education. \linebreak\linebreak
+
+\Huge\bf Background
+\small\sf\par In current times there is too much information to pass around. some of it confidential some of it non-secretive, but how to find the correct information is sometimes a problem.Students (especially in the IT field) need constant reassurance of what they are doing is correct.This project aims to solve that issue. The research comes from post-grad students. It would be so much easier if students were asking questions to people doing similar tasks to their own then to ask people who still would need to adjust to their context.This problem will hopefully be resolved by our discussion board.
+
+\huge\bf Architecture Requirements\par
+
+\large \bf  Access Channel Requirements\par
+
+\small\sf The discussion board will be accessed by various channels(devices) since it will be based on the web.The university system will also have access to the board.People may use the computers in the library or labs to get access, some students may use their laptops on campus to get access, furthermore others may use their mobile devices using Android,Ios,Windows Mobile,etc to access the board. 
+\par
+
+\large  \bf Quality Requirements\par
+\small The aim is not only to deliver a product, but to deliver a product of quality. In terms of performance, there should not be issues if we implement the the system efficiently. The computers today are equipped to handle our project.
+The system should be sufficiently reliable assuming that the administrators will maintain it well once running.
+Since the board will be accessed by a number of devices we need to make it scalable i.e. able to run on many devices without a discrepancy.
+Each user should keep their login information safe in order to guarantee their security.The system itself will keep secure by requiring users to change their passwords every month.
+The system will be flexible by sharing information amongst its many classes and not been dependent on any of them, in essence what we would like is a system that could use shared information but not need that information to operate. that way changing the system when we need to will be done at ease.
+The system will be configurable by administrators helping them to maintain it at ease.Also with the privilege of been an administrator, one gets to monitor the system.\linebreak
+To integrate the project all our work needs to fit in quite well, so that when we look at the bigger picture and begin to integrate our project to the UP website we will not have any unneeded complications. 
+The cost of this project is free to the university at the expense of COS 301 students' hard work
+The interface should be easy to navigate that way more people are comfortable using the board.\linebreak
+
+\large  \bf Integration Requirements\par
+\small\sf\par We will like to integrate the discussion board onto the Universities portal.There will be many protocols in place to make sure the system runs smoothly. In terms of networking we will obviously use HTTP, some FTP to get server information, VOIP if we plan on letting certain users communicate over voice. In terms of application protocols we will have rules to ensure security(passwords), rules that dont allow novice users to answer experienced users' questions, rules that ensure only authorized users create and delete Buzz spaces and protocols which ensure that the application does not interfere with its encapsulator(The UP website) and vice versa.\linebreak
+
+  UMLGOESHERE\linebreak
+  
+To ensure the system is legible we need to implement quality control mechanisms which was mentioned previously. These include performance, scalability, reliability, security,etc.
+
+
+\large  \bf Architecture Constraints\par
+\small\sf\par The technologies to be used when accessing the board span over all devices which can access the internet and interpret the various web based platforms.
+
+
+\end{document}
