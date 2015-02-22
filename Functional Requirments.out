@@ -9,3 +9,21 @@
 \BOOKMARK [2][-]{subsection.0.4.5}{Process specifications}{section.0.4}% 9
 \BOOKMARK [2][-]{subsection.0.4.6}{Domain Model}{section.0.4}% 10
 \BOOKMARK [1][-]{section.0.5}{Open Issues}{}% 11
+\BOOKMARK [1][-]{section.0.6}{Searching and Filtering}{}% 12
+\BOOKMARK [2][-]{subsection.0.6.1}{Description:}{section.0.6}% 13
+\BOOKMARK [2][-]{subsection.0.6.2}{Actors:}{section.0.6}% 14
+\BOOKMARK [2][-]{subsection.0.6.3}{Preconditions:}{section.0.6}% 15
+\BOOKMARK [2][-]{subsection.0.6.4}{Basic Flow:}{section.0.6}% 16
+\BOOKMARK [2][-]{subsection.0.6.5}{Alternative Flows:}{section.0.6}% 17
+\BOOKMARK [2][-]{subsection.0.6.6}{Exception Flows:}{section.0.6}% 18
+\BOOKMARK [2][-]{subsection.0.6.7}{Post Conditions:}{section.0.6}% 19
+\BOOKMARK [2][-]{subsection.0.6.8}{User Case Diagram}{section.0.6}% 20
+\BOOKMARK [1][-]{section.0.7}{Post Evaluation and Voting}{}% 21
+\BOOKMARK [2][-]{subsection.0.7.1}{Description:}{section.0.7}% 22
+\BOOKMARK [2][-]{subsection.0.7.2}{Actors:}{section.0.7}% 23
+\BOOKMARK [2][-]{subsection.0.7.3}{Preconditions:}{section.0.7}% 24
+\BOOKMARK [2][-]{subsection.0.7.4}{Basic Flow:}{section.0.7}% 25
+\BOOKMARK [2][-]{subsection.0.7.5}{Alternative Flows:}{section.0.7}% 26
+\BOOKMARK [2][-]{subsection.0.7.6}{Exception Flows:}{section.0.7}% 27
+\BOOKMARK [2][-]{subsection.0.7.7}{Post Conditions:}{section.0.7}% 28
+\BOOKMARK [2][-]{subsection.0.7.8}{User Case Diagram}{section.0.7}% 29

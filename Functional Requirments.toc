@@ -1,21 +1,39 @@
-\contentsline {section}{\numberline {0.1}Introduction}{5}{section.0.1}
-\contentsline {section}{\numberline {0.2}Vision}{5}{section.0.2}
-\contentsline {section}{\numberline {0.3}Background}{5}{section.0.3}
-\contentsline {section}{\numberline {0.4}Functional Requirements and application design}{6}{section.0.4}
-\contentsline {subsection}{\numberline {0.4.1}Purpose}{6}{subsection.0.4.1}
-\contentsline {subsection}{\numberline {0.4.2}Use case prioritization}{6}{subsection.0.4.2}
-\contentsline {subsubsection}{CRUD}{6}{section*.2}
-\contentsline {subsubsection}{Message Restrictions}{6}{section*.3}
-\contentsline {subsubsection}{Message Read Tracker}{7}{section*.4}
-\contentsline {subsection}{\numberline {0.4.3}Use case/Service contracts}{7}{subsection.0.4.3}
-\contentsline {subsubsection}{CRUD}{7}{section*.5}
-\contentsline {subsubsection}{CRUD-Create}{7}{section*.6}
-\contentsline {subsubsection}{CRUD-Read}{7}{section*.7}
-\contentsline {subsubsection}{CRUD-Update}{7}{section*.8}
-\contentsline {subsubsection}{CRUD-Delete}{8}{section*.9}
-\contentsline {subsubsection}{Message Restrictions}{8}{section*.10}
-\contentsline {subsubsection}{Message Read Tracker}{9}{section*.11}
-\contentsline {subsection}{\numberline {0.4.4}Required functionality}{9}{subsection.0.4.4}
-\contentsline {subsection}{\numberline {0.4.5}Process specifications}{9}{subsection.0.4.5}
-\contentsline {subsection}{\numberline {0.4.6}Domain Model}{9}{subsection.0.4.6}
-\contentsline {section}{\numberline {0.5}Open Issues}{9}{section.0.5}
+\contentsline {section}{\numberline {0.1}Introduction}{4}{section.0.1}
+\contentsline {section}{\numberline {0.2}Vision}{4}{section.0.2}
+\contentsline {section}{\numberline {0.3}Background}{4}{section.0.3}
+\contentsline {section}{\numberline {0.4}Functional Requirements and application design}{5}{section.0.4}
+\contentsline {subsection}{\numberline {0.4.1}Purpose}{5}{subsection.0.4.1}
+\contentsline {subsection}{\numberline {0.4.2}Use case prioritization}{5}{subsection.0.4.2}
+\contentsline {subsubsection}{CRUD}{5}{section*.2}
+\contentsline {subsubsection}{Message Restrictions}{5}{section*.3}
+\contentsline {subsubsection}{Message Read Tracker}{6}{section*.4}
+\contentsline {subsection}{\numberline {0.4.3}Use case/Service contracts}{6}{subsection.0.4.3}
+\contentsline {subsubsection}{CRUD}{6}{section*.5}
+\contentsline {subsubsection}{CRUD-Create}{6}{section*.6}
+\contentsline {subsubsection}{CRUD-Read}{6}{section*.7}
+\contentsline {subsubsection}{CRUD-Update}{6}{section*.8}
+\contentsline {subsubsection}{CRUD-Delete}{7}{section*.9}
+\contentsline {subsubsection}{Message Restrictions}{7}{section*.10}
+\contentsline {subsubsection}{Message Read Tracker}{8}{section*.11}
+\contentsline {subsection}{\numberline {0.4.4}Required functionality}{8}{subsection.0.4.4}
+\contentsline {subsection}{\numberline {0.4.5}Process specifications}{8}{subsection.0.4.5}
+\contentsline {subsection}{\numberline {0.4.6}Domain Model}{8}{subsection.0.4.6}
+\contentsline {section}{\numberline {0.5}Open Issues}{8}{section.0.5}
+\contentsline {section}{\numberline {0.6}Searching and Filtering}{8}{section.0.6}
+\contentsline {subsection}{\numberline {0.6.1}Description:}{8}{subsection.0.6.1}
+\contentsline {subsection}{\numberline {0.6.2}Actors:}{8}{subsection.0.6.2}
+\contentsline {subsection}{\numberline {0.6.3}Preconditions:}{9}{subsection.0.6.3}
+\contentsline {subsection}{\numberline {0.6.4}Basic Flow:}{9}{subsection.0.6.4}
+\contentsline {subsection}{\numberline {0.6.5}Alternative Flows:}{9}{subsection.0.6.5}
+\contentsline {subsection}{\numberline {0.6.6}Exception Flows:}{9}{subsection.0.6.6}
+\contentsline {subsection}{\numberline {0.6.7}Post Conditions:}{9}{subsection.0.6.7}
+\contentsline {subsection}{\numberline {0.6.8}User Case Diagram}{10}{subsection.0.6.8}
+\contentsline {section}{\numberline {0.7}Post Evaluation and Voting}{10}{section.0.7}
+\contentsline {subsection}{\numberline {0.7.1}Description:}{10}{subsection.0.7.1}
+\contentsline {subsection}{\numberline {0.7.2}Actors:}{10}{subsection.0.7.2}
+\contentsline {subsection}{\numberline {0.7.3}Preconditions:}{10}{subsection.0.7.3}
+\contentsline {subsection}{\numberline {0.7.4}Basic Flow:}{10}{subsection.0.7.4}
+\contentsline {subsection}{\numberline {0.7.5}Alternative Flows:}{11}{subsection.0.7.5}
+\contentsline {subsection}{\numberline {0.7.6}Exception Flows:}{11}{subsection.0.7.6}
+\contentsline {subsection}{\numberline {0.7.7}Post Conditions:}{11}{subsection.0.7.7}
+\contentsline {subsection}{\numberline {0.7.8}User Case Diagram}{11}{subsection.0.7.8}
