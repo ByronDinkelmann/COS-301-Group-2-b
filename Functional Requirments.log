@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.22)  23 FEB 2015 04:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.22)  23 FEB 2015 04:44
 entering extended mode
 **Functional*Requirments.tex
 ("C:\Users\GASwipper Gcc\Documents\COS-301-Group-2-b\Functional Requirments.tex
@@ -228,7 +228,7 @@ LaTeX Info: Redefining \nameref on input line 6.
 ("C:\Users\GASwipper Gcc\Documents\COS-301-Group-2-b\Functional Requirments.out
 ")
 \@outlinefile=\write3
- <images/UPlogo.jpg, id=143, 221.8689pt x 163.5711pt>
+ <images/UPlogo.jpg, id=167, 221.8689pt x 163.5711pt>
 File: images/UPlogo.jpg Graphic file (type jpg)
 
 <use images/UPlogo.jpg>
@@ -329,7 +329,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--132
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- <images/SearchAndFilter.png, id=250, 654.94687pt x 268.00125pt>
+ <images/SearchAndFilter.png, id=280, 654.94687pt x 268.00125pt>
 File: images/SearchAndFilter.png Graphic file (type png)
 
 <use images/SearchAndFilter.png>
@@ -344,7 +344,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/PostVoteAndEvaluation.png, id=261, 1004.75375pt x 337.26pt>
+<images/PostVoteAndEvaluation.png, id=291, 1004.75375pt x 337.26pt>
 File: images/PostVoteAndEvaluation.png Graphic file (type png)
 
 <use images/PostVoteAndEvaluation.png>
@@ -381,10 +381,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 201.
  ) 
 Here is how much of TeX's memory you used:
- 5108 strings out of 493921
- 76425 string characters out of 3144852
+ 5114 strings out of 493921
+ 76528 string characters out of 3144852
  155293 words of memory out of 3000000
- 8301 multiletter control sequences out of 15000+200000
+ 8307 multiletter control sequences out of 15000+200000
  8852 words of font info for 31 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  29i,6n,28p,521b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -392,9 +392,9 @@ Here is how much of TeX's memory you used:
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb>
-Output written on "Functional Requirments.pdf" (13 pages, 600331 bytes).
+Output written on "Functional Requirments.pdf" (13 pages, 602999 bytes).
 PDF statistics:
- 317 PDF objects out of 1000 (max. 8388607)
+ 341 PDF objects out of 1000 (max. 8388607)
  88 named destinations out of 1000 (max. 500000)
- 296 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 344 words of extra memory for PDF output out of 10000 (max. 10000000)
 
