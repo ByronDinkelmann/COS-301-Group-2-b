@@ -43,7 +43,7 @@
 \contentsline {subsection}{\numberline {0.8.3}Preconditions}{12}{subsection.0.8.3}
 \contentsline {subsection}{\numberline {0.8.4}Post Conditions}{12}{subsection.0.8.4}
 \contentsline {subsection}{\numberline {0.8.5}Use Case Diagram}{12}{subsection.0.8.5}
-\contentsline {section}{\numberline {0.9}Integrating System with any Specified Host}{12}{section.0.9}
+\contentsline {section}{\numberline {0.9}Integrating System with Any Specified Host}{12}{section.0.9}
 \contentsline {subsection}{\numberline {0.9.1}Description}{12}{subsection.0.9.1}
 \contentsline {subsection}{\numberline {0.9.2}Actors}{12}{subsection.0.9.2}
 \contentsline {subsection}{\numberline {0.9.3}Preconditions}{13}{subsection.0.9.3}
