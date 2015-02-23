@@ -1,0 +1,21 @@
+\contentsline {section}{\numberline {0.1}Introduction}{5}{section.0.1}
+\contentsline {section}{\numberline {0.2}Vision}{5}{section.0.2}
+\contentsline {section}{\numberline {0.3}Background}{5}{section.0.3}
+\contentsline {section}{\numberline {0.4}Functional Requirements and application design}{6}{section.0.4}
+\contentsline {subsection}{\numberline {0.4.1}Purpose}{6}{subsection.0.4.1}
+\contentsline {subsection}{\numberline {0.4.2}Use case prioritization}{6}{subsection.0.4.2}
+\contentsline {subsubsection}{CRUD}{6}{section*.2}
+\contentsline {subsubsection}{Message Restrictions}{6}{section*.3}
+\contentsline {subsubsection}{Message Read Tracker}{7}{section*.4}
+\contentsline {subsection}{\numberline {0.4.3}Use case/Service contracts}{7}{subsection.0.4.3}
+\contentsline {subsubsection}{CRUD}{7}{section*.5}
+\contentsline {subsubsection}{CRUD-Create}{7}{section*.6}
+\contentsline {subsubsection}{CRUD-Read}{7}{section*.7}
+\contentsline {subsubsection}{CRUD-Update}{7}{section*.8}
+\contentsline {subsubsection}{CRUD-Delete}{8}{section*.9}
+\contentsline {subsubsection}{Message Restrictions}{8}{section*.10}
+\contentsline {subsubsection}{Message Read Tracker}{9}{section*.11}
+\contentsline {subsection}{\numberline {0.4.4}Required functionality}{9}{subsection.0.4.4}
+\contentsline {subsection}{\numberline {0.4.5}Process specifications}{9}{subsection.0.4.5}
+\contentsline {subsection}{\numberline {0.4.6}Domain Model}{9}{subsection.0.4.6}
+\contentsline {section}{\numberline {0.5}Open Issues}{9}{section.0.5}
