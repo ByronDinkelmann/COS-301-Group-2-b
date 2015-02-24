@@ -15,34 +15,7 @@
 \contentsline {subsubsection}{CRUD-Delete}{8}{section*.9}
 \contentsline {subsubsection}{Message Restrictions}{8}{section*.10}
 \contentsline {subsubsection}{Message Read Tracker}{9}{section*.11}
-\contentsline {subsection}{\numberline {0.4.4}Required functionality}{11}{subsection.0.4.4}
-\contentsline {subsection}{\numberline {0.4.5}Process specifications}{11}{subsection.0.4.5}
-\contentsline {subsection}{\numberline {0.4.6}Domain Model}{11}{subsection.0.4.6}
-\contentsline {section}{\numberline {0.5}Open Issues}{11}{section.0.5}
-\contentsline {section}{\numberline {0.6}Searching and Filtering}{11}{section.0.6}
-\contentsline {subsection}{\numberline {0.6.1}Description:}{11}{subsection.0.6.1}
-\contentsline {subsection}{\numberline {0.6.2}Actors:}{11}{subsection.0.6.2}
-\contentsline {subsection}{\numberline {0.6.3}Preconditions:}{11}{subsection.0.6.3}
-\contentsline {subsection}{\numberline {0.6.4}Basic Flow:}{11}{subsection.0.6.4}
-\contentsline {subsection}{\numberline {0.6.5}Alternative Flows:}{12}{subsection.0.6.5}
-\contentsline {subsection}{\numberline {0.6.6}Exception Flows:}{12}{subsection.0.6.6}
-\contentsline {subsection}{\numberline {0.6.7}Post Conditions:}{12}{subsection.0.6.7}
-\contentsline {subsection}{\numberline {0.6.8}User Case Diagram}{12}{subsection.0.6.8}
-\contentsline {section}{\numberline {0.7}Post Evaluation and Voting}{13}{section.0.7}
-\contentsline {subsection}{\numberline {0.7.1}Description:}{13}{subsection.0.7.1}
-\contentsline {subsection}{\numberline {0.7.2}Actors:}{13}{subsection.0.7.2}
-\contentsline {subsection}{\numberline {0.7.3}Preconditions:}{13}{subsection.0.7.3}
-\contentsline {subsection}{\numberline {0.7.4}Basic Flow:}{13}{subsection.0.7.4}
-\contentsline {subsection}{\numberline {0.7.5}Alternative Flows:}{13}{subsection.0.7.5}
-\contentsline {subsection}{\numberline {0.7.6}Exception Flows:}{14}{subsection.0.7.6}
-\contentsline {subsection}{\numberline {0.7.7}Post Conditions:}{14}{subsection.0.7.7}
-\contentsline {subsection}{\numberline {0.7.8}User Case Diagram}{14}{subsection.0.7.8}
-\contentsline {subsection}{\numberline {0.7.9}Functions To Apply Social Tagging}{14}{subsection.0.7.9}
-\contentsline {subsection}{\numberline {0.7.10}Apply Self-Organization}{14}{subsection.0.7.10}
-\contentsline {subsection}{\numberline {0.7.11}Pre-conditions}{15}{subsection.0.7.11}
-\contentsline {subsubsection}{Social Tagging Functions}{15}{section*.12}
-\contentsline {subsection}{\numberline {0.7.12}Self-Organization Based On Social Tagging}{15}{subsection.0.7.12}
-\contentsline {subsection}{\numberline {0.7.13}Post-conditions}{15}{subsection.0.7.13}
-\contentsline {subsubsection}{Social Tagging Functions}{15}{section*.13}
-\contentsline {subsection}{\numberline {0.7.14}Self-Organization Based On Social Tagging}{15}{subsection.0.7.14}
-\contentsline {subsection}{\numberline {0.7.15}Use Cases}{16}{subsection.0.7.15}
+\contentsline {subsection}{\numberline {0.4.4}Required functionality}{10}{subsection.0.4.4}
+\contentsline {subsection}{\numberline {0.4.5}Process specifications}{10}{subsection.0.4.5}
+\contentsline {subsection}{\numberline {0.4.6}Domain Model}{10}{subsection.0.4.6}
+\contentsline {section}{\numberline {0.5}Open Issues}{10}{section.0.5}
