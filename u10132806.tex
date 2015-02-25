@@ -1,5 +1,5 @@
 \documentclass[a4paper,12pt]{article}
-
+\usepackage{graphicx}
 \begin{document}
 
 \section{Use Case: Summarize Thread}
@@ -35,11 +35,37 @@ Post-Conditions:
 \item Users who are stdents marks can be used to extract statistical information and this information can then be compared
 \end{list_type}
       
-    \includegraphics{images/UPlogo}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=120mm]{images/capture.png}
+\caption{Use case for information and statistics \label{overflow}}
+\end{figure}
+
+
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=120mm]{images/capture2.png}
+\caption{Use case for Text Decorating \label{overflow}}
+\end{figure}
 
 
 \subsection{Process}
 A user, that has the required privileges, will be able to type in pretty text(colors,code,etc). The data on their marks will be extracted from the database and their initial level will be determined from their marks relative to others' marks(statistics). Lecturers will be given a higher initial level. Once on a certain level users get access to a variety of text decorating functions.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=120mm]{images/capture3.png}
+\caption{Activity for information and statistics \label{overflow}}
+\end{figure}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=120mm]{images/capture4.png}
+\caption{Activity for Text Decorating \label{overflow}}
+\end{figure}
+
  
  
 \end{document}
