@@ -5,37 +5,27 @@
 \BOOKMARK [2][-]{subsection.0.4.1}{Purpose}{section.0.4}% 5
 \BOOKMARK [2][-]{subsection.0.4.2}{Use case prioritization}{section.0.4}% 6
 \BOOKMARK [2][-]{subsection.0.4.3}{Use case/Service contracts}{section.0.4}% 7
-\BOOKMARK [2][-]{subsection.0.4.4}{Required functionality}{section.0.4}% 8
-\BOOKMARK [2][-]{subsection.0.4.5}{Process specifications}{section.0.4}% 9
-\BOOKMARK [2][-]{subsection.0.4.6}{Domain Model}{section.0.4}% 10
-\BOOKMARK [1][-]{section.0.5}{Open Issues}{}% 11
-\BOOKMARK [1][-]{section.0.6}{Searching and Filtering}{}% 12
-\BOOKMARK [2][-]{subsection.0.6.1}{Description:}{section.0.6}% 13
-\BOOKMARK [2][-]{subsection.0.6.2}{Actors:}{section.0.6}% 14
-\BOOKMARK [2][-]{subsection.0.6.3}{Preconditions:}{section.0.6}% 15
-\BOOKMARK [2][-]{subsection.0.6.4}{Basic Flow:}{section.0.6}% 16
-\BOOKMARK [2][-]{subsection.0.6.5}{Alternative Flows:}{section.0.6}% 17
-\BOOKMARK [2][-]{subsection.0.6.6}{Exception Flows:}{section.0.6}% 18
-\BOOKMARK [2][-]{subsection.0.6.7}{Post Conditions:}{section.0.6}% 19
-\BOOKMARK [2][-]{subsection.0.6.8}{User Case Diagram}{section.0.6}% 20
-\BOOKMARK [1][-]{section.0.7}{Post Evaluation and Voting}{}% 21
-\BOOKMARK [2][-]{subsection.0.7.1}{Description:}{section.0.7}% 22
-\BOOKMARK [2][-]{subsection.0.7.2}{Actors:}{section.0.7}% 23
-\BOOKMARK [2][-]{subsection.0.7.3}{Preconditions:}{section.0.7}% 24
-\BOOKMARK [2][-]{subsection.0.7.4}{Basic Flow:}{section.0.7}% 25
-\BOOKMARK [2][-]{subsection.0.7.5}{Alternative Flows:}{section.0.7}% 26
-\BOOKMARK [2][-]{subsection.0.7.6}{Exception Flows:}{section.0.7}% 27
-\BOOKMARK [2][-]{subsection.0.7.7}{Post Conditions:}{section.0.7}% 28
-\BOOKMARK [2][-]{subsection.0.7.8}{User Case Diagram}{section.0.7}% 29
-\BOOKMARK [1][-]{section.0.8}{Changing User Status}{}% 30
-\BOOKMARK [2][-]{subsection.0.8.1}{Description}{section.0.8}% 31
-\BOOKMARK [2][-]{subsection.0.8.2}{Actors}{section.0.8}% 32
-\BOOKMARK [2][-]{subsection.0.8.3}{Preconditions}{section.0.8}% 33
-\BOOKMARK [2][-]{subsection.0.8.4}{Post Conditions}{section.0.8}% 34
-\BOOKMARK [2][-]{subsection.0.8.5}{Use Case Diagram}{section.0.8}% 35
-\BOOKMARK [1][-]{section.0.9}{Integrating System with Any Specified Host}{}% 36
-\BOOKMARK [2][-]{subsection.0.9.1}{Description}{section.0.9}% 37
-\BOOKMARK [2][-]{subsection.0.9.2}{Actors}{section.0.9}% 38
-\BOOKMARK [2][-]{subsection.0.9.3}{Preconditions}{section.0.9}% 39
-\BOOKMARK [2][-]{subsection.0.9.4}{Post Conditions}{section.0.9}% 40
-\BOOKMARK [2][-]{subsection.0.9.5}{Use Case Diagram}{section.0.9}% 41
+\BOOKMARK [2][-]{subsection.0.4.4}{Changing User Status}{section.0.4}% 8
+\BOOKMARK [2][-]{subsection.0.4.5}{System with Any Specified Host}{section.0.4}% 9
+\BOOKMARK [2][-]{subsection.0.4.6}{Required functionality}{section.0.4}% 10
+\BOOKMARK [2][-]{subsection.0.4.7}{Process specifications}{section.0.4}% 11
+\BOOKMARK [2][-]{subsection.0.4.8}{Domain Model}{section.0.4}% 12
+\BOOKMARK [1][-]{section.0.5}{Open Issues}{}% 13
+\BOOKMARK [1][-]{section.0.6}{Searching and Filtering}{}% 14
+\BOOKMARK [2][-]{subsection.0.6.1}{Description:}{section.0.6}% 15
+\BOOKMARK [2][-]{subsection.0.6.2}{Actors:}{section.0.6}% 16
+\BOOKMARK [2][-]{subsection.0.6.3}{Preconditions:}{section.0.6}% 17
+\BOOKMARK [2][-]{subsection.0.6.4}{Basic Flow:}{section.0.6}% 18
+\BOOKMARK [2][-]{subsection.0.6.5}{Alternative Flows:}{section.0.6}% 19
+\BOOKMARK [2][-]{subsection.0.6.6}{Exception Flows:}{section.0.6}% 20
+\BOOKMARK [2][-]{subsection.0.6.7}{Post Conditions:}{section.0.6}% 21
+\BOOKMARK [2][-]{subsection.0.6.8}{User Case Diagram}{section.0.6}% 22
+\BOOKMARK [1][-]{section.0.7}{Post Evaluation and Voting}{}% 23
+\BOOKMARK [2][-]{subsection.0.7.1}{Description:}{section.0.7}% 24
+\BOOKMARK [2][-]{subsection.0.7.2}{Actors:}{section.0.7}% 25
+\BOOKMARK [2][-]{subsection.0.7.3}{Preconditions:}{section.0.7}% 26
+\BOOKMARK [2][-]{subsection.0.7.4}{Basic Flow:}{section.0.7}% 27
+\BOOKMARK [2][-]{subsection.0.7.5}{Alternative Flows:}{section.0.7}% 28
+\BOOKMARK [2][-]{subsection.0.7.6}{Exception Flows:}{section.0.7}% 29
+\BOOKMARK [2][-]{subsection.0.7.7}{Post Conditions:}{section.0.7}% 30
+\BOOKMARK [2][-]{subsection.0.7.8}{User Case Diagram}{section.0.7}% 31
