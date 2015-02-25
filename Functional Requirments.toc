@@ -1,27 +1,27 @@
-\contentsline {section}{\numberline {0.1}Introduction}{3}{section.0.1}
-\contentsline {section}{\numberline {0.2}Vision}{3}{section.0.2}
-\contentsline {section}{\numberline {0.3}Background}{3}{section.0.3}
-\contentsline {section}{\numberline {0.4}Functional Requirements and application design}{4}{section.0.4}
-\contentsline {subsection}{\numberline {0.4.1}Purpose}{4}{subsection.0.4.1}
-\contentsline {subsection}{\numberline {0.4.2}Use case prioritization}{5}{subsection.0.4.2}
-\contentsline {subsubsection}{CRUD}{5}{section*.2}
-\contentsline {subsubsection}{Message Restrictions}{5}{section*.3}
-\contentsline {subsubsection}{Message Read Tracker}{5}{section*.4}
-\contentsline {subsubsection}{Check Post For Plagiarism}{5}{section*.5}
-\contentsline {subsubsection}{Report Post For Plagiarism}{5}{section*.6}
-\contentsline {subsubsection}{Netiquette}{5}{section*.7}
-\contentsline {subsection}{\numberline {0.4.3}Use case/Service contracts}{5}{subsection.0.4.3}
-\contentsline {subsubsection}{CRUD}{5}{section*.8}
-\contentsline {subsubsection}{CRUD-Create}{6}{section*.9}
-\contentsline {subsubsection}{CRUD-Read}{7}{section*.10}
-\contentsline {subsubsection}{CRUD-Update}{7}{section*.11}
-\contentsline {subsubsection}{CRUD-Delete}{7}{section*.12}
-\contentsline {subsubsection}{Message Restrictions}{7}{section*.13}
-\contentsline {subsubsection}{Message Read Tracker}{9}{section*.14}
-\contentsline {subsubsection}{Check Post For Plagiarism}{10}{section*.15}
-\contentsline {subsubsection}{Report Post For Plagiarism}{11}{section*.16}
-\contentsline {subsubsection}{Netiquette}{12}{section*.17}
-\contentsline {subsection}{\numberline {0.4.4}Required functionality}{14}{subsection.0.4.4}
-\contentsline {subsection}{\numberline {0.4.5}Process specifications}{14}{subsection.0.4.5}
-\contentsline {subsection}{\numberline {0.4.6}Domain Model}{14}{subsection.0.4.6}
-\contentsline {section}{\numberline {0.5}Open Issues}{14}{section.0.5}
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {section}{\numberline {2}Vision}{3}{section.2}
+\contentsline {section}{\numberline {3}Background}{3}{section.3}
+\contentsline {section}{\numberline {4}Functional Requirements and application design}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}Purpose}{4}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Use case prioritization}{5}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}CRUD}{5}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Message Restrictions}{5}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Message Read Tracker}{5}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.4}Check Post For Plagiarism}{5}{subsubsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.5}Report Post For Plagiarism}{5}{subsubsection.4.2.5}
+\contentsline {subsubsection}{\numberline {4.2.6}Netiquette}{5}{subsubsection.4.2.6}
+\contentsline {subsection}{\numberline {4.3}Use case/Service contracts}{5}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}CRUD}{5}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}CRUD-Create}{6}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}CRUD-Read}{7}{subsubsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.4}CRUD-Update}{7}{subsubsection.4.3.4}
+\contentsline {subsubsection}{\numberline {4.3.5}CRUD-Delete}{7}{subsubsection.4.3.5}
+\contentsline {subsubsection}{\numberline {4.3.6}Message Restrictions}{7}{subsubsection.4.3.6}
+\contentsline {subsubsection}{\numberline {4.3.7}Message Read Tracker}{9}{subsubsection.4.3.7}
+\contentsline {subsubsection}{\numberline {4.3.8}Check Post For Plagiarism}{10}{subsubsection.4.3.8}
+\contentsline {subsubsection}{\numberline {4.3.9}Report Post For Plagiarism}{11}{subsubsection.4.3.9}
+\contentsline {subsubsection}{\numberline {4.3.10}Netiquette}{12}{subsubsection.4.3.10}
+\contentsline {subsection}{\numberline {4.4}Required functionality}{14}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Process specifications}{14}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Domain Model}{14}{subsection.4.6}
+\contentsline {section}{\numberline {5}Open Issues}{14}{section.5}
