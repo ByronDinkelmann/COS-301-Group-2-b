@@ -1,4 +1,4 @@
-\documentclass[12pt, oneside]{book}
+\documentclass[12pt, oneside]{article}
 \usepackage{bookmark}
 \usepackage{graphicx}
 \usepackage{hyperref}
@@ -131,9 +131,6 @@ Nice-to-have
  
  \item Post-conditions: Post will be created and shown on the buzz system. Correct length and content of posts if buzz system is configured correctly.
    \\
-
-\end{enumerate}
-\end{enumerate}
  \item Request and Result Data Structures:\\
   \includegraphics[scale=0.4]{PostRestrictions}\\
  \includegraphics[scale=0.35]{PostRestrictionsActivity} 
@@ -150,13 +147,16 @@ Nice-to-have
  \includegraphics[scale=0.4]{PostReadActivity} 
 \end{enumerate}
 
-  
 \subsubsection{Thread Summarizer}
 \begin{enumerate}
  \item Pre-conditions:  The user must be registered on the buzz system. The buzz system must be on-line and reachable and the user must be logged in. Only high level users can summarize threads.
  
  \item Post-condition:  The summarized thread will be viewable on the buzz system on the relevent buzz space. The original thread will be hidden from view.
  \\
+\item Request and Result Data Structures:\\
+   \includegraphics[scale=0.4]{ThreadSummarizer}\\
+ \includegraphics[scale=0.4]{ThreadSummarizerActivity} 
+\end{enumerate}
 
 \subsubsection{Template Messenger}
 \begin{enumerate}
@@ -164,10 +164,16 @@ Nice-to-have
 
 \item Post-conditions:  The message(s) must be sent. The message(s) must be delivered to the recipient(s).
 \\
+\item Request and Result Data Structures:\\
+   \includegraphics[scale=0.4]{TemplateMessenger}\\
+ \includegraphics[scale=0.4]{TemplateMessengerActivity} 
+\end{enumerate}
 
 \subsection{Required functionality}
 \subsection{Process specifications}
 \subsection{Domain Model}
 \section{Open Issues}
 
+
+  
 \end{document}
