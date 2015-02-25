@@ -1,5 +1,5 @@
 \documentclass[12pt, oneside]{book}
- 
+\usepackage{bookmark}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \graphicspath{{images/}}
@@ -36,8 +36,6 @@
 \end{minipage}
 \end{center}
 \clearpage
-<<<<<<< HEAD
-=======
 
 \tableofcontents
 \newpage
@@ -64,8 +62,10 @@ The research project gives the students of COS301 "Software Engineering" an oppo
 \\
  \item{Message Tracker}: To mark posts for each registered user so that they can keep track of which posts they have read and which users have read certain posts.
 \\
-
- 
+\item{Searching and Filtering}: To locate hard to find information like specific phrases within posts or category headings. The user will also use this functionality be able to sieve through the forum to track down other users and/or threads.
+\\
+\item{Post Evaluation and Voting}:To assess other users and their posts on the forum, users can also willingly rate posts or topics they have read through.
+\\ 
 \end{enumerate}
 
 \subsection{Use case prioritization}
@@ -75,10 +75,18 @@ Critical
 Critical
 \subsubsection{Message Read Tracker}
 Important
+\subsubsection{Searching and Filtering}
+Important
+\subsubsection{Post Evaluation and Voting}
+Nice to have
 \subsection{Use case/Service contracts}
 \subsubsection{CRUD}
 \begin{enumerate}
- \item Pre-conditions for CRUD: The buzz system needs to be available and a connection to the buzz system possible. 
+ \item Pre-conditions for CRUD: The buzz system needs to be available and a connection to the buzz system possible.
+ 
+  \item Request and Result Data Structures: \\
+ \includegraphics[scale=0.3]{CRUDOperations}\\
+ \includegraphics[scale=0.3]{CRUDOperationsActivity} 
 \end{enumerate}
 \subsubsection{CRUD-Create}
 \begin{enumerate}
@@ -86,7 +94,7 @@ Important
  \\
  \item Post-conditions: Posts will succeed to be created and will appear in the buzz system where posted.
   \\
- \item Request and Result Data Structures: 
+ 
 \end{enumerate}
 
 \subsubsection{CRUD-Read}
@@ -95,7 +103,7 @@ Important
  \\
  \item Post-conditions: Once a post has been viewed by a logged in registered user, the post should be marked as read for that specific user.
   \\
- \item Request and Result Data Structures:
+
 \end{enumerate}
 
 \subsubsection{CRUD-Update}
@@ -104,7 +112,7 @@ Important
  \\
  \item Post-conditions: Post will be updated and shown on the buzz system to be updated.
    \\
- \item Request and Result Data Structures:
+
 \end{enumerate}
 
 \subsubsection{CRUD-Delete}
@@ -113,7 +121,7 @@ Important
  \\
  \item Post-conditions: Post successfully deleted will be hidden from the other users and buzz system and archived.Posts will never be physically deleted from the system itself.
    \\
- \item Request and Result Data Structures:
+
 \end{enumerate}
 
 \subsubsection{Message Restrictions}
@@ -122,7 +130,9 @@ Important
  
  \item Post-conditions: Post will be created and shown on the buzz system. Correct length and content of posts if buzz system is configured correctly.
    \\
- \item Request and Result Data Structures:
+ \item Request and Result Data Structures:\\
+  \includegraphics[scale=0.4]{PostRestrictions}\\
+ \includegraphics[scale=0.35]{PostRestrictionsActivity} 
 \end{enumerate}
 
 \subsubsection{Message Read Tracker}
@@ -131,52 +141,38 @@ Important
  \\
  \item Post-conditions: Post is marked as unread.Post is marked when read and seen to be read on the buzz system.
    \\
- \item Request and Result Data Structures:
+ \item Request and Result Data Structures:\\
+   \includegraphics[scale=0.4]{PostReadTracker}\\
+ \includegraphics[scale=0.4]{PostReadActivity} 
 \end{enumerate}
 
+\subsubsection{Searching and Filtering}
+\begin{enumerate}
+ \item Pre-conditions: Guests are able to search/filter but a limited search results would be imposed depending on the search criteria. Higher level users (forum members and ranked forum members) would have less restricted search capability based on the user ranking system. Super users (Administrators and Evaluators). 
+ \\
+ \item Post-conditions: Search results are directly linked to their displayed source. A search/filter with no hits will display related content and help for bettering the search.
+   \\
+ \item Request and Result Data Structures:\\
+   \includegraphics[scale=0.4]{SearchAndFilterUseCases}\\
+ \includegraphics[scale=0.4]{SearchandFilterActivityDiagram} 
+\end{enumerate}
+
+\subsubsection{Post Evaluation and Voting}
+\begin{enumerate}
+ \item Pre-conditions: The actor must be a forum member or have qualified to vote based on the above mentioned exceptions. The voter must be of a certain rank to access advanced voting functionality. The voter must be clear of any bans.  
+ \\
+ \item Post-conditions:: The voter and vote receivers profiles are updated and rank re-evaluated. The vote/evaluation on the post is updated instantly.   
+   \\
+ \item Request and Result Data Structures:\\
+   \includegraphics[scale=0.4]{SearchandFilterActivityDiagram}\\
+ \includegraphics[scale=0.4]{PostVoteandEvaluationActivityDiagram} 
+\end{enumerate}
 
 \subsection{Required functionality}
 \subsection{Process specifications}
 \subsection{Domain Model}
 \section{Open Issues}
 
-\section{Searching and Filtering}
-\subsection{Description:}
-Users will make use of such functionality to locate hard to find information like specific phrases within posts or category headings. The user will also use this functionality be able to sieve through the forum to track down other users and/or topics.  
-\subsection{Actors:} 
-Active forum members, administrators, evaluators will be the most common users of this functionality. Guests and other passive forum members will be the uncommon users.
-\subsection{Preconditions:} 
-Guests are able to search/filter but a limited search results would be imposed depending on the search criteria. Higher level users (forum members and ranked forum members) would have less restricted search capability based on the user ranking system. Super users (Administrators and Evaluators). \subsection{Basic Flow:} 
-The actor will type in the search term and select advanced criteria (optional, less restricted based on actor rank). The search is processed, this involves database querying and third party search engines. Results displayed in a categorical fashion. Categories (posts, subjects, topics, members etc.) from the results are scanned by the actor. A Result selection leads the actor directly to the selected results origin. A search rating mechanism would occasionally ask for a search rating.  
-\subsection{Alternative Flows:} 
-For uncommon users the search is less intensive and restricted thus shallow search processing will occur. Security questions would have to be answered occasionally. The browser checked cached search results. The results would still be presented in a categorical form, but would obviously omit restricted results. 
-\subsection{Exception Flows:} 
-Unintelligible or foreign language search’ would be severely limited. However technical jargon in search terms will be accommodated to an extent. Search results with restricted content would require user login to display.
-\subsection{Post Conditions:} 
-Search results are directly linked to their displayed source. A search/filter with no hits will display related content and help for bettering the search.
-\subsection{User Case Diagram}
-\begin{center}
-\includegraphics[scale=0.5]{SearchAndFilter.png}
-\end{center}
-\section{Post Evaluation and Voting}
-\subsection{Description:} 
-Users would occasionally be approached to assess other users and their posts on the forum, users can also willingly rate posts or topics they have read through. Evaluation criteria would include the integrity of the information in posts and the posters rank and forum activity.
-\subsection{Actors:} 
-Only forum members can participate in post evaluation and voting. There are possible exceptions like security cleared +1 members (temporary members linked to a current forum member) or forum guests that are identifiable experts   on a topic/subject. 
-\subsection{Preconditions:} 
-The actor must be a forum member or have qualified to vote based on the above mentioned exceptions. The voter must be of a certain rank to access advanced voting functionality. The voter must be clear of any bans. 
-\subsection{Basic Flow:} 
-The user will click on the voting mechanism linked to the post. The voting window will appear and the voters profile and history will be checked. The voting will then commence and allow for more or less voting capabilities based on the voters details. The vote will be submitted and the optional evaluation (for ranked voters only) will be sent to the post owner and displayed alongside the post.
-\subsection{Alternative Flows:} 
-The exception user will place a vote on a post. The linked forum member will be informed of this action. The vote and evaluation will be submitted upon the forum members’ approval. 
-\subsection{Exception Flows:} 
-The user has been banned from voting and is denied voting and evaluation rights until he/she obtains an acceptable rank or is unbanned by the forum administrator.
-\subsection{Post Conditions:} 
-The voter and vote receivers’ profiles are updated and rank re-evaluated. The vote/evaluation on the post is updated instantly. 
-\subsection{User Case Diagram}
-\begin{center}
-\includegraphics[scale=0.4]{PostVoteAndEvaluation.png}
-\end{center}
 
->>>>>>> 4afa9380512e4ba772508899f3e787ff0bbc6c55
+  
 \end{document}
