@@ -62,6 +62,12 @@ The research project gives the students of COS301 "Software Engineering" an oppo
 \\
  \item{Message Tracker}: To mark posts for each registered user so that they can keep track of which posts they have read and which users have read certain posts.
 \\
+\item{Check Post For Plagiarism}: To use a service provider to check if a post has been plagiarised.
+\\
+\item{Report Post For Plagiarism}: To enable users to be able to report posts that they suspect is plagiarised (with a link to the original), because the system couldn't detect it.
+\\
+\item{Netiquette}: To ensure that every post submitted conforms with the netiquette rules.
+\\
 
  
 \end{enumerate}
@@ -73,6 +79,12 @@ Critical
 Critical
 \subsubsection{Message Read Tracker}
 Important
+\subsubsection{Check Post For Plagiarism}
+Nice To Have
+\subsubsection{Report Post For Plagiarism}
+Nice To Have
+\subsubsection{Netiquette}
+Nice To Have
 \subsection{Use case/Service contracts}
 \subsubsection{CRUD}
 \begin{enumerate}
@@ -140,6 +152,41 @@ Important
  \includegraphics[scale=0.4]{PostReadActivity} 
 \end{enumerate}
 
+\subsubsection{Check Post For Plagiarism}
+\begin{enumerate}
+ \item Pre-conditions: A post must have been submit by a registered user. 
+ \\
+ 
+ \item Post-conditions: If the post passes the plagiarism test, the new post should be registered on the system. If the post has failed the plagiarism tests the post will be blocked, then the post's user and the module's administrator will be notified. Afterwords a log will be stored. 
+   \\
+ \item Request and Result Data Structures:\\
+  \includegraphics[scale=0.4]{plagiarismCheckUC}\\
+ \includegraphics[scale=0.35]{plagiarismCheckAD} 
+\end{enumerate}
+
+\subsubsection{Report Post For Plagiarism}
+\begin{enumerate}
+ \item Pre-conditions: A post must have been reported by a registered user that has a level X account. 
+ \\
+ 
+ \item Post-conditions: The post is sent to an administrator to follow up on the report. If the administrator finds the post not plagiarised, the post will be registered on the system. If it is found to be plagiarised the post will be blocked, then the post's user and the module's administrator will be notified. Afterwords a log will be stored. 
+   \\
+ \item Request and Result Data Structures:\\
+  \includegraphics[scale=0.4]{plagiarismReportUC}\\
+ \includegraphics[scale=0.35]{plagiarismReportAD} 
+\end{enumerate}
+
+\subsubsection{Netiquette}
+\begin{enumerate}
+ \item Pre-conditions: A post must have been submit by a registered user.
+ \\
+ 
+ \item If the post passes the netiquette test, the new post should be registered on the system. If the post has failed the netiquette tests the post will be blocked, then the post's user and the module's administrator will be notified. Afterwords a log will be stored.  
+   \\
+ \item Request and Result Data Structures:\\
+  \includegraphics[scale=0.4]{netiquetteUseCase}\\
+ \includegraphics[scale=0.35]{NetiquetteActivityDiagram} 
+\end{enumerate}
 
 \subsection{Required functionality}
 \subsection{Process specifications}
