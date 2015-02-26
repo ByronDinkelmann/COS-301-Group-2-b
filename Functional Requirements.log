@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.22)  26 FEB 2015 02:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.22)  26 FEB 2015 03:09
 entering extended mode
 **Functional*Requirements.tex
 
@@ -299,14 +299,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--71
 
  []
 
-[5] <images/CRUDOperations.jpg, id=106, 1057.9525pt x 685.56125pt>
+[5] <images/CRUDOperations.jpg, id=110, 1057.9525pt x 685.56125pt>
 File: images/CRUDOperations.jpg Graphic file (type jpg)
 
 <use images/CRUDOperations.jpg>
 Package pdftex.def Info: images/CRUDOperations.jpg used on input line 94.
 (pdftex.def)             Requested size: 317.3882pt x 205.66995pt.
 
-<images/CRUDOperationsActivity.jpg, id=107, 1335.99126pt x 696.6025pt>
+<images/CRUDOperationsActivity.jpg, id=111, 1335.99126pt x 696.6025pt>
 File: images/CRUDOperationsActivity.jpg Graphic file (type jpg)
 
 <use images/CRUDOperationsActivity.jpg>
@@ -365,14 +365,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--139
 
  []
 
-<images/PostRestrictions.jpg, id=133, 769.87625pt x 530.98375pt>
+<images/PostRestrictions.jpg, id=137, 769.87625pt x 530.98375pt>
 File: images/PostRestrictions.jpg Graphic file (type jpg)
 
 <use images/PostRestrictions.jpg>
 Package pdftex.def Info: images/PostRestrictions.jpg used on input line 140.
 (pdftex.def)             Requested size: 307.94504pt x 212.38972pt.
 
-<images/PostRestrictionsActivity.jpg, id=134, 1258.7025pt x 577.15625pt>
+<images/PostRestrictionsActivity.jpg, id=138, 1258.7025pt x 577.15625pt>
 File: images/PostRestrictionsActivity.jpg Graphic file (type jpg)
 
 <use images/PostRestrictionsActivity.jpg>
@@ -395,14 +395,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--150
 
  []
 
-<images/PostReadTracker.jpg, id=141, 819.06pt x 474.77374pt>
+<images/PostReadTracker.jpg, id=145, 819.06pt x 474.77374pt>
 File: images/PostReadTracker.jpg Graphic file (type jpg)
 
 <use images/PostReadTracker.jpg>
 Package pdftex.def Info: images/PostReadTracker.jpg used on input line 151.
 (pdftex.def)             Requested size: 327.6182pt x 189.90613pt.
 
-<images/PostReadActivity.jpg, id=142, 942.52126pt x 366.36874pt>
+<images/PostReadActivity.jpg, id=146, 942.52126pt x 366.36874pt>
 File: images/PostReadActivity.jpg Graphic file (type jpg)
 
 <use images/PostReadActivity.jpg>
@@ -417,7 +417,7 @@ Overfull \hbox (16.37653pt too wide) in paragraph at lines 150--153
 Activity.jpg>] [11 <C:/Users/GASwipper Gcc/Documents/COS-301-Group-2-b/images/P
 ostReadTracker.jpg> <C:/Users/GASwipper Gcc/Documents/COS-301-Group-2-b/images/
 PostReadActivity.jpg>]
-<images/socialTagging.jpg, id=157, 511.9125pt x 469.755pt>
+<images/socialTagging.jpg, id=161, 511.9125pt x 469.755pt>
 File: images/socialTagging.jpg Graphic file (type jpg)
 
 <use images/socialTagging.jpg>
@@ -428,7 +428,7 @@ Overfull \hbox (121.91125pt too wide) in paragraph at lines 188--189
 []
  []
 
-<images/socialTaggingActivity.jpg, id=158, 476.78125pt x 244.915pt> [12]
+<images/socialTaggingActivity.jpg, id=162, 476.78125pt x 244.915pt> [12]
 [13]
 Overfull \vbox (1.50148pt too high) has occurred while \output is active []
 
@@ -445,9 +445,7 @@ Overfull \hbox (104.40489pt too wide) in paragraph at lines 190--191
 [][]
  []
 
-[15 <C:/Users/GASwipper Gcc/Documents/COS-301-Group-2-b/images/socialTaggingAct
-ivity.jpg>]
-<images/AutoChangeUserStatus.jpg, id=190, 772.8875pt x 492.84125pt>
+<images/AutoChangeUserStatus.jpg, id=186, 772.8875pt x 492.84125pt>
 File: images/AutoChangeUserStatus.jpg Graphic file (type jpg)
 
 <use images/AutoChangeUserStatus.jpg>
@@ -455,7 +453,7 @@ Package pdftex.def Info: images/AutoChangeUserStatus.jpg used on input line 201
 .
 (pdftex.def)             Requested size: 386.4428pt x 246.42001pt.
 
-<images/ChangeUserStatusActivity.jpg, id=191, 915.42pt x 499.8675pt>
+<images/ChangeUserStatusActivity.jpg, id=187, 915.42pt x 499.8675pt>
 File: images/ChangeUserStatusActivity.jpg Graphic file (type jpg)
 
 <use images/ChangeUserStatusActivity.jpg>
@@ -472,17 +470,18 @@ Overfull \hbox (97.08357pt too wide) in paragraph at lines 201--203
  [] 
  []
 
-[16 <C:/Users/GASwipper Gcc/Documents/COS-301-Group-2-b/images/AutoChangeUserSt
-atus.jpg> <C:/Users/GASwipper Gcc/Documents/COS-301-Group-2-b/images/ChangeUser
-StatusActivity.jpg>]
-<images/integrateSystem.jpg, id=197, 866.23625pt x 499.8675pt>
+[15 <C:/Users/GASwipper Gcc/Documents/COS-301-Group-2-b/images/socialTaggingAct
+ivity.jpg>] [16 <C:/Users/GASwipper Gcc/Documents/COS-301-Group-2-b/images/Auto
+ChangeUserStatus.jpg> <C:/Users/GASwipper Gcc/Documents/COS-301-Group-2-b/image
+s/ChangeUserStatusActivity.jpg>]
+<images/integrateSystem.jpg, id=202, 866.23625pt x 499.8675pt>
 File: images/integrateSystem.jpg Graphic file (type jpg)
 
 <use images/integrateSystem.jpg>
 Package pdftex.def Info: images/integrateSystem.jpg used on input line 214.
 (pdftex.def)             Requested size: 433.11707pt x 249.93314pt.
 
-<images/integrateSystemActivity.jpg, id=198, 942.52126pt x 510.90875pt>
+<images/integrateSystemActivity.jpg, id=203, 942.52126pt x 510.90875pt>
 File: images/integrateSystemActivity.jpg Graphic file (type jpg)
 
 <use images/integrateSystemActivity.jpg>
@@ -510,14 +509,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--226
 
  []
 
-<images/plagiarismCheckUC.jpg, id=208, 782.17218pt x 529.98pt>
+<images/plagiarismCheckUC.jpg, id=214, 782.17218pt x 529.98pt>
 File: images/plagiarismCheckUC.jpg Graphic file (type jpg)
 
 <use images/plagiarismCheckUC.jpg>
 Package pdftex.def Info: images/plagiarismCheckUC.jpg used on input line 227.
 (pdftex.def)             Requested size: 312.86333pt x 211.98824pt.
 
-<images/plagiarismCheckAD.jpg, id=209, 676.77844pt x 491.58656pt>
+<images/plagiarismCheckAD.jpg, id=215, 676.77844pt x 491.58656pt>
 File: images/plagiarismCheckAD.jpg Graphic file (type jpg)
 
 <use images/plagiarismCheckAD.jpg>
@@ -536,14 +535,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--238
 
 [19 <C:/Users/GASwipper Gcc/Documents/COS-301-Group-2-b/images/plagiarismCheckU
 C.jpg> <C:/Users/GASwipper Gcc/Documents/COS-301-Group-2-b/images/plagiarismChe
-ckAD.jpg>] <images/plagiarismReportUC.jpg, id=226, 809.27344pt x 533.74406pt>
+ckAD.jpg>] <images/plagiarismReportUC.jpg, id=232, 809.27344pt x 533.74406pt>
 File: images/plagiarismReportUC.jpg Graphic file (type jpg)
 
 <use images/plagiarismReportUC.jpg>
 Package pdftex.def Info: images/plagiarismReportUC.jpg used on input line 239.
 (pdftex.def)             Requested size: 323.70364pt x 213.49384pt.
 
-<images/plagiarismReportAD.jpg, id=227, 590.95781pt x 408.77719pt>
+<images/plagiarismReportAD.jpg, id=233, 590.95781pt x 408.77719pt>
 File: images/plagiarismReportAD.jpg Graphic file (type jpg)
 
 <use images/plagiarismReportAD.jpg>
@@ -561,14 +560,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 248--250
 
 [20 <C:/Users/GASwipper Gcc/Documents/COS-301-Group-2-b/images/plagiarismReport
 UC.jpg> <C:/Users/GASwipper Gcc/Documents/COS-301-Group-2-b/images/plagiarismRe
-portAD.jpg>] <images/netiquetteUseCase.jpg, id=236, 680.5425pt x 515.67656pt>
+portAD.jpg>] <images/netiquetteUseCase.jpg, id=242, 680.5425pt x 515.67656pt>
 File: images/netiquetteUseCase.jpg Graphic file (type jpg)
 
 <use images/netiquetteUseCase.jpg>
 Package pdftex.def Info: images/netiquetteUseCase.jpg used on input line 251.
 (pdftex.def)             Requested size: 272.21217pt x 206.26697pt.
 
-<images/NetiquetteActivityDiagram.jpg, id=237, 742.27313pt x 501.37312pt>
+<images/NetiquetteActivityDiagram.jpg, id=243, 742.27313pt x 501.37312pt>
 File: images/NetiquetteActivityDiagram.jpg Graphic file (type jpg)
 
 <use images/NetiquetteActivityDiagram.jpg>
@@ -592,28 +591,34 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
  ) 
 Here is how much of TeX's memory you used:
- 5463 strings out of 493921
- 83022 string characters out of 3144852
+ 5465 strings out of 493921
+ 83062 string characters out of 3144852
  156738 words of memory out of 3000000
  8594 multiletter control sequences out of 15000+200000
  7894 words of font info for 28 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 35i,6n,30p,521b,466s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsubsection.4.10.3} has been referenced but doe
-s not exist, replaced by a fixed one
+ 35i,6n,30p,521b,468s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{subsection.4.15} has been referenced but does not
+ exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsubsection.4.10.2} has been referenced but does 
+pdfTeX warning (dest): name{subsection.4.14} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.4.12.3} has been referenced but does 
 not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsubsection.4.10.1} has been referenced but does 
+pdfTeX warning (dest): name{subsubsection.4.12.2} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.4.12.1} has been referenced but does 
 not exist, replaced by a fixed one
 
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "Functional Requirements.pdf" (22 pages, 1808262 bytes).
+Output written on "Functional Requirements.pdf" (22 pages, 1809013 bytes).
 PDF statistics:
- 401 PDF objects out of 1000 (max. 8388607)
- 119 named destinations out of 1000 (max. 500000)
+ 406 PDF objects out of 1000 (max. 8388607)
+ 121 named destinations out of 1000 (max. 500000)
  400 words of extra memory for PDF output out of 10000 (max. 10000000)
 
