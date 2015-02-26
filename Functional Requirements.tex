@@ -62,6 +62,10 @@ The research project gives the students of COS301 "Software Engineering" an oppo
 \\
  \item{Message Tracker}: To mark posts for each registered user so that they can keep track of which posts they have read and which users have read certain posts.
 \\
+ \item{Thread Summarizer}: To summarize threads, that are over a certain number of posts long, into a new thread for viewing. This replaces the original thread.
+\\
+ \item{Template Messenger}: To give standard and custom layouts of automated messages that can be broadcast to groups or sent to individuals.
+\\
 \item{Check Post For Plagiarism}: To use a service provider to check if a post has been plagiarised.
 \\
 \item{Report Post For Plagiarism}: To enable users to be able to report posts that they suspect is plagiarised (with a link to the original), because the system couldn't detect it.
@@ -79,6 +83,10 @@ Critical
 Critical
 \subsubsection{Message Read Tracker}
 Important
+\subsubsection{Thread Summarizer}
+Nice-to-have
+\subsubsection{Template Messenger}
+Nice-to-have
 \subsubsection{Check Post For Plagiarism}
 Nice To Have
 \subsubsection{Report Post For Plagiarism}
@@ -150,6 +158,24 @@ Nice To Have
  \item Request and Result Data Structures:\\
    \includegraphics[scale=0.4]{PostReadTracker}\\
  \includegraphics[scale=0.4]{PostReadActivity} 
+\end{enumerate}
+\subsubsection{Thread Summarizer}
+\begin{enumerate}
+ \item Pre-conditions:  The user must be registered on the buzz system. The buzz system must be on-line and reachable and the user must be logged in. Only high level users can summarize threads.
+ \item Post-condition:  The summarized thread will be viewable on the buzz system on the relevent buzz space. The original thread will be hidden from view.
+ \\
+\item Request and Result Data Structures:\\
+   \includegraphics[scale=0.4]{ThreadSummarizer}\\
+ \includegraphics[scale=0.4]{ThreadSummarizerActivity} 
+\end{enumerate}
+\subsubsection{Template Messenger}
+\begin{enumerate}
+\item Pre-conditions:   The buzz system must be on-line and reachable. Since this procedure is automated a user does not need to be logged in.
+\item Post-conditions:  The message(s) must be sent. The message(s) must be delivered to the recipient(s).
+\\
+\item Request and Result Data Structures:\\
+   \includegraphics[scale=0.4]{TemplateMessenger}\\
+ \includegraphics[scale=0.4]{TemplateMessengerActivity} 
 \end{enumerate}
 \subsection{Functions To Apply Social Tagging}
 \begin{enumerate}
