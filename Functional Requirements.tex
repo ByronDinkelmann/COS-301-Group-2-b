@@ -66,16 +66,18 @@ The research project gives the students of COS301 "Software Engineering" an oppo
 \\
  \item{Template Messenger}: To give standard and custom layouts of automated messages that can be broadcast to groups or sent to individuals.
 \\
-\item{Automatically Change User Status}: To change/affect user's reputation and abilities based on status.
-\\
-\item{Integrate System with Any Host Site}: To allow the Buzz system to be hosted on any site without any difficulties.
-\\ 
 \item{Check Post For Plagiarism}: To use a service provider to check if a post has been plagiarised.
 \\
 \item{Report Post For Plagiarism}: To enable users to be able to report posts that they suspect is plagiarised (with a link to the original), because the system couldn't detect it.
 \\
 \item{Netiquette}: To ensure that every post submitted conforms with the netiquette rules.
 \\
+%%%%%%Taariq%%%%%%%%%%
+\item{Text decorating functions}: To allow privileged users to use advanced functions when typing posts.
+\\
+\item{Statistical gathering}:To advance users to their next level for gamification concept.
+\\
+%%%%%%Taariq%%%%%%%%%%
 
  
 \end{enumerate}
@@ -85,12 +87,8 @@ The research project gives the students of COS301 "Software Engineering" an oppo
 Critical
 \subsubsection{Message Restrictions}
 Critical
-\subsubsection{Integrate System with Any Host Site}
-Critical
 \subsubsection{Message Read Tracker}
 Important
-\subsubsection{Automatically Change User Status}
-Nice-to-have
 \subsubsection{Thread Summarizer}
 Nice-to-have
 \subsubsection{Template Messenger}
@@ -101,6 +99,14 @@ Nice To Have
 Nice To Have
 \subsubsection{Netiquette}
 Nice To Have
+%%%%%%Taariq%%%%%%%%%%
+\subsubsection{Text Decorating}
+Nice To Have
+\subsubsection{Statistical gathering}
+Critical
+%%%%%%Taariq%%%%%%%%%%
+
+
 \subsection{Use case/Service contracts}
 \subsubsection{CRUD}
 \begin{enumerate}
@@ -119,6 +125,46 @@ Nice To Have
  
 \end{enumerate}
 
+
+%%%%%%%%%%%%Taariq%%%%%%%%%%%%%%%%
+\subsubsection{Text Decorating}
+\begin{enumerate}
+ \item Pre-conditions: User must have required level.
+ \\
+ 
+\item Post-conditions: User can use the pretty text functionality that he/she qualifies for. 
+\\  
+  
+ \item Request and Result Data Structures:\\
+  \includegraphics[scale=0.4]{textDecorator}\\
+ \item Request and Result Data Structures:\\
+  \includegraphics[scale=0.4]{textDecoratorProcess}\\
+
+
+\end{enumerate}
+%%%%%%%%%%%%%%%%Taariq%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%Taariq%%%%%%%%%%%%%%%%
+\subsubsection{Statistical Gathering}
+\begin{enumerate}
+ \item Pre-conditions: Database must be up and accessible.
+ \\
+ \item Users want to level up to use privileged mechanisms 
+\\
+
+\item Post-conditions: Users who are students marks can be used to extract statistical information and these information can then be compared.
+\\  
+  \item users have leveled up.
+  \\
+  
+ \item Request and Result Data Structures:\\
+  \includegraphics[scale=0.4]{getInformation}\\
+
+\end{enumerate}
+%%%%%%%%%%%%%%%%Taariq%%%%%%%%%%%%%%%%%%%%
+
+
+
 \subsubsection{CRUD-Read}
 \begin{enumerate}
  \item Pre-conditions: Posts must be present to be read.
@@ -127,6 +173,8 @@ Nice To Have
   \\
 
 \end{enumerate}
+
+
 
 \subsubsection{CRUD-Update}
 \begin{enumerate}
