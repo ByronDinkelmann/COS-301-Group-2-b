@@ -1,0 +1,29 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {section}{\numberline {2}Vision}{3}{section.2}
+\contentsline {section}{\numberline {3}Background}{3}{section.3}
+\contentsline {section}{\numberline {4}Functional Requirements and application design}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}Purpose}{4}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Use case prioritization}{4}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}CRUD}{4}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Message Restrictions}{4}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Message Read Tracker}{5}{subsubsection.4.2.3}
+\contentsline {subsection}{\numberline {4.3}Use case/Service contracts}{5}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}CRUD}{5}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}CRUD-Create}{6}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}CRUD-Read}{6}{subsubsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.4}CRUD-Update}{6}{subsubsection.4.3.4}
+\contentsline {subsubsection}{\numberline {4.3.5}CRUD-Delete}{7}{subsubsection.4.3.5}
+\contentsline {subsubsection}{\numberline {4.3.6}Message Restrictions}{7}{subsubsection.4.3.6}
+\contentsline {subsubsection}{\numberline {4.3.7}Message Read Tracker}{8}{subsubsection.4.3.7}
+\contentsline {subsection}{\numberline {4.4}Functions To Apply Social Tagging}{9}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Apply Self-Organization}{10}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Pre-conditions}{10}{subsection.4.6}
+\contentsline {subsubsection}{\numberline {4.6.1}Social Tagging Functions}{10}{subsubsection.4.6.1}
+\contentsline {subsection}{\numberline {4.7}Self-Organization Based On Social Tagging}{10}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}Post-conditions}{10}{subsection.4.8}
+\contentsline {subsubsection}{\numberline {4.8.1}Social Tagging Functions}{10}{subsubsection.4.8.1}
+\contentsline {subsection}{\numberline {4.9}Self-Organization Based On Social Tagging}{10}{subsection.4.9}
+\contentsline {subsection}{\numberline {4.10}Required functionality}{12}{subsection.4.10}
+\contentsline {subsection}{\numberline {4.11}Process specifications}{12}{subsection.4.11}
+\contentsline {subsection}{\numberline {4.12}Domain Model}{12}{subsection.4.12}
+\contentsline {section}{\numberline {5}Open Issues}{12}{section.5}
