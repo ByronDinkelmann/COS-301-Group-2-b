@@ -190,6 +190,32 @@ Nice To Have
 \includegraphics{socialTaggingActivity.jpg}
 	\rule{0\linewidth}{0.15\linewidth}\par
 
+\subsubsection{Changing User Status}
+\begin{enumerate}
+\item Description: The Buzz system will automatically rank users of the system based on their participation. A user's  reputation (status) will be affected by the user's participation points on Buzz system, it can either grow or be negatively affected depending on the user's participation marks.   
+\item Actors: This functionality will be automatically triggered by the Buzz system each time a user's participation is evaluated.
+\item Preconditions: The user needs to earn new participation points (positive or negative).
+\item Post Conditions: The user's status should correspond to the status which the user's participation point maps to.
+\item Request and Result Data Structure:
+\begin{center}
+\includegraphics[scale=0.5]{AutoChangeUserStatus.jpg}
+\includegraphics[scale=0.5]{ChangeUserStatusActivity.jpg}
+\end{center}
+\end{enumerate}
+
+\subsubsection{System with Any Specified Host}
+\begin{enumerate}
+\item Description: The system should have the ability to be hosted by any site that it specified on setup by the administrator of the system the first time it is setup.
+\item Actors: The administrator of the host site is the only user that can use this functionality to integrate the system on a site.
+\item Preconditions: The user must be the site administrator and the host site specified must be a valid site.
+\item Post Conditions: The system should be integrated on the site.
+\item Request and Result Data Structure : 
+\begin{center}
+\includegraphics[scale=0.5]{integrateSystem.jpg}
+\includegraphics[scale=0.5]{integrateSystemActivity.jpg}
+\end{center}
+\end{enumerate}
+
 \subsubsection{Check Post For Plagiarism}
 \begin{enumerate}
  \item Pre-conditions: A post must have been submit by a registered user. 
@@ -213,6 +239,7 @@ Nice To Have
   \includegraphics[scale=0.4]{plagiarismReportUC}\\
  \includegraphics[scale=0.35]{plagiarismReportAD} 
 \end{enumerate}
+
 
 \subsubsection{Netiquette}
 \begin{enumerate}
