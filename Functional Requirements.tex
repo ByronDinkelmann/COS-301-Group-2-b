@@ -1,5 +1,5 @@
-\documentclass[12pt, oneside]{book}
- 
+\documentclass[12pt, oneside]{article}
+\usepackage{bookmark}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \graphicspath{{images/}}
@@ -62,6 +62,12 @@ The research project gives the students of COS301 "Software Engineering" an oppo
 \\
  \item{Message Tracker}: To mark posts for each registered user so that they can keep track of which posts they have read and which users have read certain posts.
 \\
+\item{Check Post For Plagiarism}: To use a service provider to check if a post has been plagiarised.
+\\
+\item{Report Post For Plagiarism}: To enable users to be able to report posts that they suspect is plagiarised (with a link to the original), because the system couldn't detect it.
+\\
+\item{Netiquette}: To ensure that every post submitted conforms with the netiquette rules.
+\\
 
  
 \end{enumerate}
@@ -71,16 +77,22 @@ The research project gives the students of COS301 "Software Engineering" an oppo
 Critical
 \subsubsection{Message Restrictions}
 Critical
-\subsubsection{Integrate System with Any Host Site}
-Critical
 \subsubsection{Message Read Tracker}
 Important
-\subsubsection{Automatically Change User Status}
-Important
+\subsubsection{Check Post For Plagiarism}
+Nice To Have
+\subsubsection{Report Post For Plagiarism}
+Nice To Have
+\subsubsection{Netiquette}
+Nice To Have
 \subsection{Use case/Service contracts}
 \subsubsection{CRUD}
 \begin{enumerate}
- \item Pre-conditions for CRUD: The buzz system needs to be available and a connection to the buzz system possible. 
+ \item Pre-conditions for CRUD: The buzz system needs to be available and a connection to the buzz system possible.
+ 
+  \item Request and Result Data Structures: \\
+ \includegraphics[scale=0.3]{CRUDOperations}\\
+ \includegraphics[scale=0.3]{CRUDOperationsActivity} 
 \end{enumerate}
 \subsubsection{CRUD-Create}
 \begin{enumerate}
@@ -88,7 +100,7 @@ Important
  \\
  \item Post-conditions: Posts will succeed to be created and will appear in the buzz system where posted.
   \\
- \item Request and Result Data Structures: 
+ 
 \end{enumerate}
 
 \subsubsection{CRUD-Read}
@@ -97,7 +109,7 @@ Important
  \\
  \item Post-conditions: Once a post has been viewed by a logged in registered user, the post should be marked as read for that specific user.
   \\
- \item Request and Result Data Structures:
+
 \end{enumerate}
 
 \subsubsection{CRUD-Update}
@@ -106,7 +118,7 @@ Important
  \\
  \item Post-conditions: Post will be updated and shown on the buzz system to be updated.
    \\
- \item Request and Result Data Structures:
+
 \end{enumerate}
 
 \subsubsection{CRUD-Delete}
@@ -115,7 +127,7 @@ Important
  \\
  \item Post-conditions: Post successfully deleted will be hidden from the other users and buzz system and archived.Posts will never be physically deleted from the system itself.
    \\
- \item Request and Result Data Structures:
+
 \end{enumerate}
 
 \subsubsection{Message Restrictions}
@@ -124,7 +136,9 @@ Important
  
  \item Post-conditions: Post will be created and shown on the buzz system. Correct length and content of posts if buzz system is configured correctly.
    \\
- \item Request and Result Data Structures:
+ \item Request and Result Data Structures:\\
+  \includegraphics[scale=0.4]{PostRestrictions}\\
+ \includegraphics[scale=0.35]{PostRestrictionsActivity} 
 \end{enumerate}
 
 \subsubsection{Message Read Tracker}
@@ -133,8 +147,49 @@ Important
  \\
  \item Post-conditions: Post is marked as unread.Post is marked when read and seen to be read on the buzz system.
    \\
- \item Request and Result Data Structures:
+ \item Request and Result Data Structures:\\
+   \includegraphics[scale=0.4]{PostReadTracker}\\
+ \includegraphics[scale=0.4]{PostReadActivity} 
 \end{enumerate}
+\subsection{Functions To Apply Social Tagging}
+\begin{enumerate}
+\item The system will provide functions which through employing tags can provide flexible ways of using information that supports users with: Finding, Collecting, Storing, Organizing and Sharing Information.
+\item Allow users to share their tags.
+\item Allow users different views of the content. Either a personally structured view according to the user's tags or the default admin structure.
+\end{enumerate}
+\subsection{Apply Self-Organization}
+\begin{enumerate}
+\item The system will allow the user to organize their content themselves based on their social tags.
+\item The system will allow the user to chose from different types of views either the base owns or public structure.
+\end{enumerate}
+\subsection{Pre-conditions}
+\subsubsection{Social Tagging Functions}    
+\begin{enumerate}
+\item User is signed in and has default privileges to execute all social tagging functions functions.
+\item User has already created tags before they can share them.
+\item  System allows for different views of the content.
+\end{enumerate}
+\subsection{Self-Organization Based On Social Tagging}
+\begin{enumerate}
+\item Have three different structures users can choose from for viewing.
+\end{enumerate}
+\subsection{Post-conditions}
+\subsubsection{Social Tagging Functions}    
+\begin{enumerate}
+\item After the user has executed any of the functions the user state changes.
+\item After the user selects their view structure, the structure must stay consistent until the user chooses otherwise.
+\end{enumerate}
+\subsection{Self-Organization Based On Social Tagging}
+\begin{enumerate}
+\item After the user selects their view type, provide option to still be able to switch views.
+\item Content must be displayed according to user's desire.
+\end{enumerate}
+\subsection{Use Cases}
+\includegraphics{socialTagging.jpg}
+	\rule{0\linewidth}{0.15\linewidth}\par
+\includegraphics{socialTaggingActivity.jpg}
+	\rule{0\linewidth}{0.15\linewidth}\par
+
 \subsection{Changing User Status}
 \begin{enumerate}
 \item Description: The Buzz system will automatically rank users of the system based on their participation. A user's  reputation (status) will be affected by the user's participation points on Buzz system, it can either grow or be negatively affected depending on the user's participation marks.   
@@ -161,48 +216,47 @@ Important
 \end{center}
 \end{enumerate}
 
+\subsubsection{Check Post For Plagiarism}
+\begin{enumerate}
+ \item Pre-conditions: A post must have been submit by a registered user. 
+ \\
+ 
+ \item Post-conditions: If the post passes the plagiarism test, the new post should be registered on the system. If the post has failed the plagiarism tests the post will be blocked, then the post's user and the module's administrator will be notified. Afterwords a log will be stored. 
+   \\
+ \item Request and Result Data Structures:\\
+  \includegraphics[scale=0.4]{plagiarismCheckUC}\\
+ \includegraphics[scale=0.35]{plagiarismCheckAD} 
+\end{enumerate}
+
+\subsubsection{Report Post For Plagiarism}
+\begin{enumerate}
+ \item Pre-conditions: A post must have been reported by a registered user that has a level X account. 
+ \\
+ 
+ \item Post-conditions: The post is sent to an administrator to follow up on the report. If the administrator finds the post not plagiarised, the post will be registered on the system. If it is found to be plagiarised the post will be blocked, then the post's user and the module's administrator will be notified. Afterwords a log will be stored. 
+   \\
+ \item Request and Result Data Structures:\\
+  \includegraphics[scale=0.4]{plagiarismReportUC}\\
+ \includegraphics[scale=0.35]{plagiarismReportAD} 
+\end{enumerate}
+
+\subsubsection{Netiquette}
+\begin{enumerate}
+ \item Pre-conditions: A post must have been submit by a registered user.
+ \\
+ 
+ \item If the post passes the netiquette test, the new post should be registered on the system. If the post has failed the netiquette tests the post will be blocked, then the post's user and the module's administrator will be notified. Afterwords a log will be stored.  
+   \\
+ \item Request and Result Data Structures:\\
+  \includegraphics[scale=0.4]{netiquetteUseCase}\\
+ \includegraphics[scale=0.35]{NetiquetteActivityDiagram} 
+\end{enumerate}
+
 \subsection{Required functionality}
 \subsection{Process specifications}
 \subsection{Domain Model}
 \section{Open Issues}
 
 
-\section{Searching and Filtering}
-\subsection{Description:}
-Users will make use of such functionality to locate hard to find information like specific phrases within posts or category headings. The user will also use this functionality be able to sieve through the forum to track down other users and/or topics.  
-\subsection{Actors:} 
-Active forum members, administrators, evaluators will be the most common users of this functionality. Guests and other passive forum members will be the uncommon users.
-\subsection{Preconditions:} 
-Guests are able to search/filter but a limited search results would be imposed depending on the search criteria. Higher level users (forum members and ranked forum members) would have less restricted search capability based on the user ranking system. Super users (Administrators and Evaluators). \subsection{Basic Flow:} 
-The actor will type in the search term and select advanced criteria (optional, less restricted based on actor rank). The search is processed, this involves database querying and third party search engines. Results displayed in a categorical fashion. Categories (posts, subjects, topics, members etc.) from the results are scanned by the actor. A Result selection leads the actor directly to the selected results origin. A search rating mechanism would occasionally ask for a search rating.  
-\subsection{Alternative Flows:} 
-For uncommon users the search is less intensive and restricted thus shallow search processing will occur. Security questions would have to be answered occasionally. The browser checked cached search results. The results would still be presented in a categorical form, but would obviously omit restricted results. 
-\subsection{Exception Flows:} 
-Unintelligible or foreign language search’ would be severely limited. However technical jargon in search terms will be accommodated to an extent. Search results with restricted content would require user login to display.
-\subsection{Post Conditions:} 
-Search results are directly linked to their displayed source. A search/filter with no hits will display related content and help for bettering the search.
-\subsection{User Case Diagram}
-\begin{center}
-\includegraphics[scale=0.5]{SearchAndFilter.png}
-\end{center}
-\section{Post Evaluation and Voting}
-\subsection{Description:} 
-Users would occasionally be approached to assess other users and their posts on the forum, users can also willingly rate posts or topics they have read through. Evaluation criteria would include the integrity of the information in posts and the posters rank and forum activity.
-\subsection{Actors:} 
-Only forum members can participate in post evaluation and voting. There are possible exceptions like security cleared +1 members (temporary members linked to a current forum member) or forum guests that are identifiable experts   on a topic/subject. 
-\subsection{Preconditions:} 
-The actor must be a forum member or have qualified to vote based on the above mentioned exceptions. The voter must be of a certain rank to access advanced voting functionality. The voter must be clear of any bans. 
-\subsection{Basic Flow:} 
-The user will click on the voting mechanism linked to the post. The voting window will appear and the voters profile and history will be checked. The voting will then commence and allow for more or less voting capabilities based on the voters details. The vote will be submitted and the optional evaluation (for ranked voters only) will be sent to the post owner and displayed alongside the post.
-\subsection{Alternative Flows:} 
-The exception user will place a vote on a post. The linked forum member will be informed of this action. The vote and evaluation will be submitted upon the forum members’ approval. 
-\subsection{Exception Flows:} 
-The user has been banned from voting and is denied voting and evaluation rights until he/she obtains an acceptable rank or is unbanned by the forum administrator.
-\subsection{Post Conditions:} 
-The voter and vote receivers’ profiles are updated and rank re-evaluated. The vote/evaluation on the post is updated instantly. 
-\subsection{User Case Diagram}
-\begin{center}
-\includegraphics[scale=0.4]{PostVoteAndEvaluation.png}
-\end{center}
-
+  
 \end{document}
