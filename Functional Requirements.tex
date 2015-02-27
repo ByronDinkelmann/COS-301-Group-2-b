@@ -91,11 +91,19 @@ The research project gives the students of COS301 "Software Engineering" an oppo
 \subsection{Use case prioritization}
 \subsubsection{CRUD}
 Critical
+\subsubsection{Post Restriction based on Level}
+Critical
+\subsubsection{Staff Content Management System}
+Critical
 \subsubsection{Message Restrictions}
+Critical
+\subsubsection{Statistical gathering}
 Critical
 \subsubsection{Integrate System with Any Host Site}
 Important
 \subsubsection{Message Read Tracker}
+Important
+\subsubsection{Social Tagging Functions}
 Important
 \subsubsection{Thread Summarizer}
 Nice-to-have
@@ -112,10 +120,6 @@ Nice To Have
 %%%%%%Taariq%%%%%%%%%%
 \subsubsection{Text Decorating}
 Nice To Have
-\subsubsection{Statistical gathering}
-Critical
-\subsubsection{Social Tagging Functions}
-Important
 \subsubsection{Self Organization And View Types}
 Nice To Have
 %%%%%%Taariq%%%%%%%%%%
@@ -130,30 +134,72 @@ Nice To Have
  \centerline{\includegraphics[scale=0.3]{CRUDOperations}}\\
  \centerline{\includegraphics[scale=0.3]{CRUDOperationsActivity}} 
 \end{enumerate}
+
 \subsubsection{CRUD-Create}
 \begin{enumerate}
  \item Pre-conditions: For a user to create posts they need to be registered of the buzz system. The user must be logged in to the buzz system.
- \\
+
  \item Post-conditions: Posts will succeed to be created and will appear in the buzz system where posted.
-  \\
- 
+
 \end{enumerate}
 
+\subsubsection{CRUD-Read}
+\begin{enumerate}
+ \item Pre-conditions: Posts must be present to be read.
+
+ \item Post-conditions: Once a post has been viewed by a logged in registered user, the post should be marked as read for that specific user.
+
+\end{enumerate}
+
+\subsubsection{CRUD-Update}
+\begin{enumerate}
+ \item Pre-conditions:  For a user to update posts they need to be registered of the buzz system. The user must be logged in to the buzz system. The user must be the owner of the post.
+
+ \item Post-conditions: Post will be updated and shown on the buzz system to be updated.
+
+\end{enumerate}
+
+\subsubsection{CRUD-Delete}
+\begin{enumerate}
+ \item Pre-conditions:  For a user to delete posts they need to be registered of the buzz system. The user must be logged in to the buzz system. The user must be the owner of the post unless a user with status level "x" views the post to be unfit. The post needs to exist for it to be deleted.
+
+ \item Post-conditions: Post successfully deleted will be hidden from the other users and buzz system and archived.Posts will never be physically deleted from the system itself.
+
+\end{enumerate}
+
+\subsubsection{Post Restriction based on Level}
+\begin{enumerate}
+	\item Pre-conditions: The User's privilege level needs to be verified with the data on record in the database. If no data is available (Guest User), the privileges for a Guest user needs to be verified.
+ 
+	\item Post-conditions: Administrators will be able to create many posts on any level they deem fit. Users on level X will only be able to post on the levels they are authorised to post, the same applies for guest users. The end result is that if a user has the relevant privilege level, a post will be created on the chosen level.
+ 
+	\item Request and Result Data Structures:\\
+	\centerline{\includegraphics[scale=0.7]{u11205131_checkUserStatus}}
+\end{enumerate}
+
+\subsubsection{Staff Content Management System}
+\begin{enumerate}
+	\item Pre-conditions: The user needs to be verified as a staff member by querying the user's status from the database and needs the necessary privilege levels in order to move, hide, close or summarise a thread.
+	
+	\item Post-conditions: The staff member will be able to either move, hide, close or summarise the relevant thread.
+
+	\item Request and Result Data Structures:\\
+	\centerline{\includegraphics[scale=0.7]{u11205131_staffContentManagement}}
+\end{enumerate}
 
 %%%%%%%%%%%%Taariq%%%%%%%%%%%%%%%%
 \subsubsection{Text Decorating}
 \begin{enumerate}
  \item Pre-conditions: User must have required level.
- \\
+
  
 \item Post-conditions: User can use the pretty text functionality that he/she qualifies for. 
-\\  
+
   
  \item Request and Result Data Structures:\\
   \centerline{\includegraphics[scale=0.4]{textDecorator}}\\
  \item Request and Result Data Structures:\\
   \centerline{\includegraphics[scale=0.4]{textDecoratorProcess}}\\
-
 
 \end{enumerate}
 %%%%%%%%%%%%%%%%Taariq%%%%%%%%%%%%%%%%%%%%
@@ -162,14 +208,14 @@ Nice To Have
 \subsubsection{Statistical Gathering}
 \begin{enumerate}
  \item Pre-conditions: Database must be up and accessible.
- \\
+
  \item Users want to level up to use privileged mechanisms 
-\\
+
 
 \item Post-conditions: Users who are students marks can be used to extract statistical information and these information can then be compared.
-\\  
+ 
   \item users have levelled up.
-  \\
+
   
  \item Request and Result Data Structures:\\
   \centerline{\includegraphics[scale=0.4]{getInformation}}\\
@@ -177,43 +223,12 @@ Nice To Have
 \end{enumerate}
 %%%%%%%%%%%%%%%%Taariq%%%%%%%%%%%%%%%%%%%%
 
-
-
-\subsubsection{CRUD-Read}
-\begin{enumerate}
- \item Pre-conditions: Posts must be present to be read.
- \\
- \item Post-conditions: Once a post has been viewed by a logged in registered user, the post should be marked as read for that specific user.
-  \\
-
-\end{enumerate}
-
-
-
-\subsubsection{CRUD-Update}
-\begin{enumerate}
- \item Pre-conditions:  For a user to update posts they need to be registered of the buzz system. The user must be logged in to the buzz system. The user must be the owner of the post.
- \\
- \item Post-conditions: Post will be updated and shown on the buzz system to be updated.
-   \\
-
-\end{enumerate}
-
-\subsubsection{CRUD-Delete}
-\begin{enumerate}
- \item Pre-conditions:  For a user to delete posts they need to be registered of the buzz system. The user must be logged in to the buzz system. The user must be the owner of the post unless a user with status level "x" views the post to be unfit. The post needs to exist for it to be deleted.
- \\
- \item Post-conditions: Post successfully deleted will be hidden from the other users and buzz system and archived.Posts will never be physically deleted from the system itself.
-   \\
-
-\end{enumerate}
-
 \subsubsection{Message Restrictions}
 \begin{enumerate}
  \item Pre-conditions:  User must be registered on the buzz system. The buzz system needs to be available and a connection to the buzz system possible. The user must be logged in to the buzz system. User must be able to create posts. Length and content of posts must be specified by the buzz system of which the user is registered. Must have levels of posts.
  
  \item Post-conditions: Post will be created and shown on the buzz system. Correct length and content of posts if buzz system is configured correctly.
-   \\
+
  \item Request and Result Data Structures:\\
   \centerline{\includegraphics[scale=0.4]{PostRestrictions}}\\
  \centerline{\includegraphics[scale=0.35]{PostRestrictionsActivity}} 
@@ -222,9 +237,9 @@ Nice To Have
 \subsubsection{Message Read Tracker}
 \begin{enumerate}
  \item Pre-conditions:  User must be registered on the buzz system. The user must be logged in to the buzz system. Messages must exist to be read, marked as unread and must be seen as read by other users.
- \\
+
  \item Post-conditions: Post is marked as unread.Post is marked when read and seen to be read on the buzz system.
-   \\
+
  \item Request and Result Data Structures:\\
    \centerline{\includegraphics[scale=0.4]{PostReadTracker}}\\
  \centerline{\includegraphics[scale=0.4]{PostReadActivity}} 
@@ -233,7 +248,7 @@ Nice To Have
 \begin{enumerate}
  \item Pre-conditions:  The user must be registered on the buzz system. The buzz system must be on-line and reachable and the user must be logged in. Only high level users can summarize threads.
  \item Post-condition:  The summarized thread will be viewable on the buzz system on the relevent buzz space. The original thread will be hidden from view.
- \\
+
 \item Request and Result Data Structures:\\
    %\centerline{\includegraphics[scale=0.4]{ThreadSummarizer}}\\
  %\centerline{\includegraphics[scale=0.4]{ThreadSummarizerActivity}} 
@@ -242,7 +257,7 @@ Nice To Have
 \begin{enumerate}
 \item Pre-conditions:   The buzz system must be on-line and reachable. Since this procedure is automated a user does not need to be logged in.
 \item Post-conditions:  The message(s) must be sent. The message(s) must be delivered to the recipient(s).
-\\
+
 \item Request and Result Data Structures:\\
    %\centerline{\includegraphics[scale=0.4]{TemplateMessenger}}\\
  %\centerline{\includegraphics[scale=0.4]{TemplateMessengerActivity}} 
@@ -253,7 +268,7 @@ Nice To Have
 \item Post-condition: After the user has executed any of the functions the user state changes. After the user selects their view structure, other options for different structure must be available and the structure must stay consistent until the user chooses otherwise.
 \item Request and Result Data Structures:
 \begin{center}
-\centerline{\includegraphics[scale=0.5]{socialTagging.jpg}}\\
+\centerline{\includegraphics[scale=0.5]{socialTagging.jpg}}
 \centerline{\includegraphics[scale=0.5]{socialTaggingActivity.jpg}}
 \end{center}
 \end{enumerate}
@@ -291,10 +306,10 @@ Nice To Have
 \subsubsection{Check Post For Plagiarism}
 \begin{enumerate}
  \item Pre-conditions: A post must have been submit by a registered user. 
- \\
+
  
  \item Post-conditions: If the post passes the plagiarism test, the new post should be registered on the system. If the post has failed the plagiarism tests the post will be blocked, then the post's user and the module's administrator will be notified. Afterwords a log will be stored. 
-   \\
+
  \item Request and Result Data Structures:\\
   \centerline{\includegraphics[scale=0.4]{plagiarismCheckUC}}\\
  \centerline{\includegraphics[scale=0.35]{plagiarismCheckAD}} 
@@ -303,10 +318,10 @@ Nice To Have
 \subsubsection{Report Post For Plagiarism}
 \begin{enumerate}
  \item Pre-conditions: A post must have been reported by a registered user that has a level X account. 
- \\
+
  
  \item Post-conditions: The post is sent to an administrator to follow up on the report. If the administrator finds the post not plagiarised, the post will be registered on the system. If it is found to be plagiarised the post will be blocked, then the post's user and the module's administrator will be notified. Afterwords a log will be stored. 
-   \\
+
  \item Request and Result Data Structures:\\
   \centerline{\includegraphics[scale=0.4]{plagiarismReportUC}}\\
  \centerline{\includegraphics[scale=0.35]{plagiarismReportAD}} 
@@ -316,10 +331,10 @@ Nice To Have
 \subsubsection{Netiquette}
 \begin{enumerate}
  \item Pre-conditions: A post must have been submit by a registered user.
- \\
+
  
  \item If the post passes the netiquette test, the new post should be registered on the system. If the post has failed the netiquette tests the post will be blocked, then the post's user and the module's administrator will be notified. Afterwords a log will be stored.  
-   \\
+
  \item Request and Result Data Structures:\\
   \centerline{\includegraphics[scale=0.4]{netiquetteUseCase}}\\
  \centerline{\includegraphics[scale=0.35]{NetiquetteActivityDiagram}} 
