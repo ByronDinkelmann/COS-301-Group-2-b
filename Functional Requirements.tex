@@ -3,6 +3,9 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \graphicspath{{images/}}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
 \begin{document}
  
 %titlepage
@@ -29,7 +32,7 @@
     {\normalsize Timothy Snayers u13397134\par}
     \vspace{1cm}
     
-    \hyperref[https://github.com/ByronDinkelmann/COS-301-Group-2-b.git]{Github}\par
+    \href{https://github.com/ByronDinkelmann/COS-301-Group-2-b.git}{Github Repository}\par
     \vspace{1cm}
 %Date
     {\Large February 2015}
@@ -133,8 +136,9 @@ Nice To Have
 \begin{enumerate}
  \item Pre-conditions for CRUD: The buzz system needs to be available and a connection to the buzz system possible.
  
-  \item Request and Result Data Structures: \\
- \centerline{\includegraphics[scale=0.3]{CRUDOperations}}\\
+  \item Use case diagram:\\ 
+ \centerline{\includegraphics[scale=0.3]{CRUDOperations}}
+ \item Process specification:\\ 
  \centerline{\includegraphics[scale=0.3]{CRUDOperationsActivity}} 
 \end{enumerate}
 
@@ -176,8 +180,10 @@ Nice To Have
  
 	\item Post-conditions: Administrators will be able to create many posts on any level they deem fit. Users on level X will only be able to post on the levels they are authorised to post, the same applies for guest users. The end result is that if a user has the relevant privilege level, a post will be created on the chosen level.
  
-	\item Request and Result Data Structures:\\
+	 
+  \item Use case diagram:\\ 
 	\centerline{\includegraphics[scale=0.7]{u11205131_checkUserStatus}}\\
+	\item Process specification:\\ 
 	\centerline{\includegraphics[scale=0.7]{u11205131_checkUserStatusActivity}}
 \end{enumerate}
 
@@ -187,8 +193,9 @@ Nice To Have
 	
 	\item Post-conditions: The staff member will be able to either move, hide, close or summarise the relevant thread.
 
-	\item Request and Result Data Structures:\\
+	\item Use case diagram:\\
 	\centerline{\includegraphics[scale=0.7]{u11205131_staffContentManagement}}\\
+	\item Process specification:\\ 
 	\centerline{\includegraphics[scale=0.7]{u11205131_staffContentManagementActivity}}
 \end{enumerate}
 
@@ -198,8 +205,9 @@ Nice To Have
  
  \item Post-conditions: Post will be created and shown on the buzz system. Correct length and content of posts if buzz system is configured correctly.
 
- \item Request and Result Data Structures:\\
+ \item Use case diagram:\\
   \centerline{\includegraphics[scale=0.4]{PostRestrictions}}\\
+  \item Process specification:\\ 
  \centerline{\includegraphics[scale=0.35]{PostRestrictionsActivity}} 
 \end{enumerate}
 
@@ -212,10 +220,10 @@ Nice To Have
 
 \item Post-conditions: Users who are students marks can be used to extract statistical information and these information can then be compared.
  
-  \item users have levelled up.
+  \item users have leveled up.
 
   
- \item Request and Result Data Structures:\\
+ \item Use case diagram:\\
   \centerline{\includegraphics[scale=0.4]{getInformation}}\\
 
 \end{enumerate}
@@ -227,11 +235,12 @@ Nice To Have
 \item Actors: The administrator of the host site is the only user that can use this functionality to integrate the system on a site.
 \item Preconditions: The user must be the site administrator and the host site specified must be a valid site.
 \item Post Conditions: The system should be integrated on the site.
-\item Request and Result Data Structure : 
-\begin{center}
+
+\item Use case diagram:\\
 \centerline{\includegraphics[scale=0.5]{integrateSystem.jpg}}
+ \item Process specification:\\ 
 \centerline{\includegraphics[scale=0.5]{integrateSystemActivity.jpg}}
-\end{center}
+
 \end{enumerate}
 
 \subsubsection{Message Read Tracker}
@@ -240,8 +249,9 @@ Nice To Have
 
  \item Post-conditions: Post is marked as unread.Post is marked when read and seen to be read on the buzz system.
 
- \item Request and Result Data Structures:\\
+\item Use case diagram:\\
    \centerline{\includegraphics[scale=0.4]{PostReadTracker}}\\
+    \item Process specification:\\ 
  \centerline{\includegraphics[scale=0.4]{PostReadActivity}} 
 \end{enumerate}
 
@@ -250,10 +260,11 @@ Nice To Have
 \item Pre-conditions: User is signed in and has default privileges to execute all social tagging functions functions. User has already created tags before they can share them. System allows for different views of the content.
 \item Post-condition: After the user has executed any of the functions the user state changes. After the user selects their view structure, other options for different structure must be available and the structure must stay consistent until the user chooses otherwise.
 \item Request and Result Data Structures:
-\begin{center}
+\item Use case diagram:\\
 \centerline{\includegraphics[scale=0.5]{socialTagging.jpg}}
+    \item Process specification:\\ 
 \centerline{\includegraphics[scale=0.5]{socialTaggingActivity.jpg}}
-\end{center}
+
 \end{enumerate}
 
 \subsubsection{Thread Summariser}
@@ -261,9 +272,10 @@ Nice To Have
  \item Pre-conditions:  The user must be registered on the buzz system. The buzz system must be on-line and reachable and the user must be logged in. Only high level users can summarise threads.
  \item Post-condition:  The summarised thread will be viewable on the buzz system on the relevent buzz space. The original thread will be hidden from view.
 
-\item Request and Result Data Structures:\\
-   centerline{\includegraphics[scale=0.4]{SummarizeThreadUseCases}}\\
- centerline{\includegraphics[scale=0.4]{SummarizeRequestActivities}} 
+\item Use case diagram:\\
+   \centerline{\includegraphics[scale=0.4]{SummarizeThreadUseCases}}\\
+      \item Process specification:\\ 
+\centerline{\includegraphics[scale=0.4]{SummarizeRequestActivities}} 
 \end{enumerate}
 
 \subsubsection{Template Messenger}
@@ -271,8 +283,9 @@ Nice To Have
 \item Pre-conditions:   The buzz system must be on-line and reachable. Since this procedure is automated a user does not need to be logged in.
 \item Post-conditions:  The message(s) must be sent. The message(s) must be delivered to the recipient(s).
 
-\item Request and Result Data Structures:\\
+\item Use case diagram:\\
    \centerline{\includegraphics[scale=0.4]{TempleteMessagingUseCases}}\\
+   \item Process specification:\\
  \centerline{\includegraphics[scale=0.4]{TemplateMessagingActivities}} 
 \end{enumerate}
 
@@ -283,10 +296,11 @@ Nice To Have
 \item Preconditions: The user needs to earn new participation points (positive or negative).
 \item Post Conditions: The user's status should correspond to the status which the user's participation point maps to.
 \item Request and Result Data Structure:
-\begin{center}
+\item Use case diagram:\\
 \centerline{\includegraphics[scale=0.5]{AutoChangeUserStatus.jpg}}
+ \item Process specification:\\
 \centerline{\includegraphics[scale=0.5]{ChangeUserStatusActivity.jpg}}
-\end{center}
+
 \end{enumerate}
 
 \subsubsection{Check Post For Plagiarism}
@@ -295,8 +309,9 @@ Nice To Have
  
  \item Post-conditions: If the post passes the plagiarism test, the new post should be registered on the system. If the post has failed the plagiarism tests the post will be blocked, then the post's user and the module's administrator will be notified. Afterwords a log will be stored. 
 
- \item Request and Result Data Structures:\\
+ \item Use case diagram:\\
   \centerline{\includegraphics[scale=0.4]{plagiarismCheckUC}}\\
+   \item Process specification:\\
  \centerline{\includegraphics[scale=0.35]{plagiarismCheckAD}} 
 \end{enumerate}
 
@@ -306,8 +321,9 @@ Nice To Have
  
  \item Post-conditions: The post is sent to an administrator to follow up on the report. If the administrator finds the post not plagiarised, the post will be registered on the system. If it is found to be plagiarised the post will be blocked, then the post's user and the module's administrator will be notified. Afterwords a log will be stored. 
 
- \item Request and Result Data Structures:\\
+  \item Use case diagram:\\
   \centerline{\includegraphics[scale=0.4]{plagiarismReportUC}}\\
+   \item Process specification:\\
  \centerline{\includegraphics[scale=0.35]{plagiarismReportAD}} 
 \end{enumerate}
 
@@ -318,8 +334,9 @@ Nice To Have
 
  \item If the post passes the netiquette test, the new post should be registered on the system. If the post has failed the netiquette tests the post will be blocked, then the post's user and the module's administrator will be notified. Afterwords a log will be stored.  
 
- \item Request and Result Data Structures:\\
+ \item Use case diagram:\\
   \centerline{\includegraphics[scale=0.4]{netiquetteUseCase}}\\
+  \item Process specification:\\
  \centerline{\includegraphics[scale=0.35]{NetiquetteActivityDiagram}} 
 \end{enumerate}
 
@@ -330,9 +347,9 @@ Nice To Have
 
 \item Post-conditions: User can use the pretty text functionality that he/she qualifies for. 
 
- \item Request and Result Data Structures:\\
+ \item Use case diagram:\\
   \centerline{\includegraphics[scale=0.4]{textDecorator}}\\
- \item Request and Result Data Structures:\\
+ \item Process specification:\\
   \centerline{\includegraphics[scale=0.4]{textDecoratorProcess}}\\
 
 \end{enumerate}
@@ -344,9 +361,11 @@ Nice To Have
 \item Post-condition: After the user selects their view type, provide option to still be able to switch views. The content must then be displayed according to user's desire.
 \end{enumerate}
 
-\subsection{Required functionality}
 \subsection{Process specifications}
+ \centerline{\includegraphics[scale=0.48]{ProcessSpecification}}
+ \newpage
 \subsection{Domain Model}
+ \centerline{\includegraphics[scale=0.4]{DomainModel}}
 \section{Open Issues}
 
 \end{document}
