@@ -58,32 +58,36 @@ The research project gives the students of COS301 "Software Engineering" an oppo
 \begin{enumerate}
  \item{CRUD}: To create posts on the buzz system so that users in the system can share relevant information with one another and communicate. To allow registered users and non registered users such as guests to view posts created by users of the buzz system. To allow users to update posts of which they control. To allow users to delete their own posts or to allow users with sufficient status level to delete other posts based on certain factors about that specific post.
  
-\item{Message Restrictions}: To restrict users to length, content and positioning of posts based on the users status level. 
+ \item{Post Restriction based on Level}: Restrict users to only post on the levels they have permission to post.
 
- \item{Message Tracker}: To mark posts for each registered user so that they can keep track of which posts they have read and which users have read certain posts.
+ \item{Staff Content Management System}: Allow the staff members of each module to move, hide, close and/or summarise the content of any thread under their control, subject to restrictions configurable by the administrator.
+ 
+ \item{Message Restrictions}: To restrict users to length, content and positioning of posts based on the users status level.
 
- \item{Thread Summarizer}: To summarize threads, that are over a certain number of posts long, into a new thread for viewing. This replaces the original thread.
+ \item{Statistical gathering}: To advance users to their next level for gamification concept.
+ 
+ \item{Integrate System with Any Host Site}: To allow the Buzz system to be hosted on any site without any difficulties.
+
+ \item{Message Read Tracker}: To mark posts for each registered user so that they can keep track of which posts they have read and which users have read certain posts.
+
+ \item{Social Tagging Functions}: The system will provide functions which through employing tags can provide flexible ways of using information that supports users with: Finding, Collecting, Storing, Organizing and Sharing Information. It should also allow users to share their tags as well as allowing users different views of the content. Either a personally structured view according to the user's tags or the default admin structure.
+
+ \item{Thread Summariser}: To summarise threads, that are over a certain number of posts long, into a new thread for viewing. This replaces the original thread.
 
  \item{Template Messenger}: To give standard and custom layouts of automated messages that can be broadcast to groups or sent to individuals.
 
-\item{Automatically Change User Status}: To change/affect user's reputation and abilities based on status.
+ \item{Automatically Change User Status}: To change/affect user's reputation and abilities based on status.
 
-\item{Integrate System with Any Host Site}: To allow the Buzz system to be hosted on any site without any difficulties.
+ \item{Check Post For Plagiarism}: To use a service provider to check if a post has been plagiarised.
 
-\item{Check Post For Plagiarism}: To use a service provider to check if a post has been plagiarised.
+ \item{Report Post For Plagiarism}: To enable users to be able to report posts that they suspect is plagiarised (with a link to the original), because the system couldn't detect it.
 
-\item{Report Post For Plagiarism}: To enable users to be able to report posts that they suspect is plagiarised (with a link to the original), because the system couldn't detect it.
-
-\item{Netiquette}: To ensure that every post submitted conforms with the netiquette rules.
+ \item{Netiquette}: To ensure that every post submitted conforms with the netiquette rules.
 
 %%%%%%Taariq%%%%%%%%%%
-\item{Text decorating functions}: To allow privileged users to use advanced functions when typing posts.
+ \item{Text Decorating Functions}: To allow privileged users to use advanced functions when typing posts.
 
-\item{Statistical gathering}: To advance users to their next level for gamification concept.
-
-\item{Social Tagging Functions}: The system will provide functions which through employing tags can provide flexible ways of using information that supports users with: Finding, Collecting, Storing, Organizing and Sharing Information. It should also allow users to share their tags as well as allowing users different views of the content. Either a personally structured view according to the user's tags or the default admin structure.
-
-\item{Self Organization And View Types} The system will allow the user to organize their content themselves based on their social tags. The system will also allow the user to chose from different types of views either the base, owns or public structure.
+ \item{Self-Organization And View Types} The system will allow the user to organize their content themselves based on their social tags. The system will also allow the user to chose from different types of views either the base, owns or public structure.
 %%%%%%Taariq%%%%%%%%%%
  
 \end{enumerate}
@@ -105,7 +109,7 @@ Important
 Important
 \subsubsection{Social Tagging Functions}
 Important
-\subsubsection{Thread Summarizer}
+\subsubsection{Thread Summariser}
 Nice-to-have
 \subsubsection{Template Messenger}
 Nice-to-have
@@ -120,10 +124,9 @@ Nice To Have
 %%%%%%Taariq%%%%%%%%%%
 \subsubsection{Text Decorating}
 Nice To Have
-\subsubsection{Self Organization And View Types}
+\subsubsection{Self-Organization And View Types}
 Nice To Have
 %%%%%%Taariq%%%%%%%%%%
-
 
 \subsection{Use case/Service contracts}
 \subsubsection{CRUD}
@@ -187,30 +190,23 @@ Nice To Have
 	\centerline{\includegraphics[scale=0.7]{u11205131_staffContentManagement}}
 \end{enumerate}
 
-%%%%%%%%%%%%Taariq%%%%%%%%%%%%%%%%
-\subsubsection{Text Decorating}
+\subsubsection{Message Restrictions}
 \begin{enumerate}
- \item Pre-conditions: User must have required level.
-
+ \item Pre-conditions:  User must be registered on the buzz system. The buzz system needs to be available and a connection to the buzz system possible. The user must be logged in to the buzz system. User must be able to create posts. Length and content of posts must be specified by the buzz system of which the user is registered. Must have levels of posts.
  
-\item Post-conditions: User can use the pretty text functionality that he/she qualifies for. 
+ \item Post-conditions: Post will be created and shown on the buzz system. Correct length and content of posts if buzz system is configured correctly.
 
-  
  \item Request and Result Data Structures:\\
-  \centerline{\includegraphics[scale=0.4]{textDecorator}}\\
- \item Request and Result Data Structures:\\
-  \centerline{\includegraphics[scale=0.4]{textDecoratorProcess}}\\
-
+  \centerline{\includegraphics[scale=0.4]{PostRestrictions}}\\
+ \centerline{\includegraphics[scale=0.35]{PostRestrictionsActivity}} 
 \end{enumerate}
-%%%%%%%%%%%%%%%%Taariq%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%Taariq%%%%%%%%%%%%%%%%
 \subsubsection{Statistical Gathering}
 \begin{enumerate}
  \item Pre-conditions: Database must be up and accessible.
 
- \item Users want to level up to use privileged mechanisms 
-
+ \item Users want to level up to use privileged mechanisms.
 
 \item Post-conditions: Users who are students marks can be used to extract statistical information and these information can then be compared.
  
@@ -223,15 +219,17 @@ Nice To Have
 \end{enumerate}
 %%%%%%%%%%%%%%%%Taariq%%%%%%%%%%%%%%%%%%%%
 
-\subsubsection{Message Restrictions}
+\subsubsection{Integrate system with Any Specified Host}
 \begin{enumerate}
- \item Pre-conditions:  User must be registered on the buzz system. The buzz system needs to be available and a connection to the buzz system possible. The user must be logged in to the buzz system. User must be able to create posts. Length and content of posts must be specified by the buzz system of which the user is registered. Must have levels of posts.
- 
- \item Post-conditions: Post will be created and shown on the buzz system. Correct length and content of posts if buzz system is configured correctly.
-
- \item Request and Result Data Structures:\\
-  \centerline{\includegraphics[scale=0.4]{PostRestrictions}}\\
- \centerline{\includegraphics[scale=0.35]{PostRestrictionsActivity}} 
+\item Description: The system should have the ability to be hosted by any site that it specified on setup by the administrator of the system the first time it is setup.
+\item Actors: The administrator of the host site is the only user that can use this functionality to integrate the system on a site.
+\item Preconditions: The user must be the site administrator and the host site specified must be a valid site.
+\item Post Conditions: The system should be integrated on the site.
+\item Request and Result Data Structure : 
+\begin{center}
+\centerline{\includegraphics[scale=0.5]{integrateSystem.jpg}}
+\centerline{\includegraphics[scale=0.5]{integrateSystemActivity.jpg}}
+\end{center}
 \end{enumerate}
 
 \subsubsection{Message Read Tracker}
@@ -244,24 +242,7 @@ Nice To Have
    \centerline{\includegraphics[scale=0.4]{PostReadTracker}}\\
  \centerline{\includegraphics[scale=0.4]{PostReadActivity}} 
 \end{enumerate}
-\subsubsection{Thread Summarizer}
-\begin{enumerate}
- \item Pre-conditions:  The user must be registered on the buzz system. The buzz system must be on-line and reachable and the user must be logged in. Only high level users can summarize threads.
- \item Post-condition:  The summarized thread will be viewable on the buzz system on the relevent buzz space. The original thread will be hidden from view.
 
-\item Request and Result Data Structures:\\
-   centerline{\includegraphics[scale=0.4]{SummarizeThreadUseCases}}\\
- centerline{\includegraphics[scale=0.4]{SummarizeRequestActivities}} 
-\end{enumerate}
-\subsubsection{Template Messenger}
-\begin{enumerate}
-\item Pre-conditions:   The buzz system must be on-line and reachable. Since this procedure is automated a user does not need to be logged in.
-\item Post-conditions:  The message(s) must be sent. The message(s) must be delivered to the recipient(s).
-
-\item Request and Result Data Structures:\\
-   centerline{\includegraphics[scale=0.4]{TempleteMessagingUseCases}}\\
- centerline{\includegraphics[scale=0.4]{TemplateMessagingActivities}} 
-\end{enumerate}
 \subsubsection{Social Tagging Functions}
 \begin{enumerate}
 \item Pre-conditions: User is signed in and has default privileges to execute all social tagging functions functions. User has already created tags before they can share them. System allows for different views of the content.
@@ -272,11 +253,27 @@ Nice To Have
 \centerline{\includegraphics[scale=0.5]{socialTaggingActivity.jpg}}
 \end{center}
 \end{enumerate}
-\subsubsection{Self-Organization And View Types}
+
+\subsubsection{Thread Summariser}
 \begin{enumerate}
-\item Pre-condition: Have three different structures users can choose from for viewing.
-\item Post-condition: After the user selects their view type, provide option to still be able to switch views. The content must then be displayed according to user's desire.
+ \item Pre-conditions:  The user must be registered on the buzz system. The buzz system must be on-line and reachable and the user must be logged in. Only high level users can summarise threads.
+ \item Post-condition:  The summarised thread will be viewable on the buzz system on the relevent buzz space. The original thread will be hidden from view.
+
+\item Request and Result Data Structures:\\
+   centerline{\includegraphics[scale=0.4]{SummarizeThreadUseCases}}\\
+ centerline{\includegraphics[scale=0.4]{SummarizeRequestActivities}} 
 \end{enumerate}
+
+\subsubsection{Template Messenger}
+\begin{enumerate}
+\item Pre-conditions:   The buzz system must be on-line and reachable. Since this procedure is automated a user does not need to be logged in.
+\item Post-conditions:  The message(s) must be sent. The message(s) must be delivered to the recipient(s).
+
+\item Request and Result Data Structures:\\
+   \centerline{\includegraphics[scale=0.4]{TempleteMessagingUseCases}}\\
+ \centerline{\includegraphics[scale=0.4]{TemplateMessagingActivities}} 
+\end{enumerate}
+
 \subsubsection{Changing User Status}
 \begin{enumerate}
 \item Description: The Buzz system will automatically rank users of the system based on their participation. A user's  reputation (status) will be affected by the user's participation points on Buzz system, it can either grow or be negatively affected depending on the user's participation marks.   
@@ -290,23 +287,9 @@ Nice To Have
 \end{center}
 \end{enumerate}
 
-\subsubsection{System with Any Specified Host}
-\begin{enumerate}
-\item Description: The system should have the ability to be hosted by any site that it specified on setup by the administrator of the system the first time it is setup.
-\item Actors: The administrator of the host site is the only user that can use this functionality to integrate the system on a site.
-\item Preconditions: The user must be the site administrator and the host site specified must be a valid site.
-\item Post Conditions: The system should be integrated on the site.
-\item Request and Result Data Structure : 
-\begin{center}
-\centerline{\includegraphics[scale=0.5]{integrateSystem.jpg}}
-\centerline{\includegraphics[scale=0.5]{integrateSystemActivity.jpg}}
-\end{center}
-\end{enumerate}
-
 \subsubsection{Check Post For Plagiarism}
 \begin{enumerate}
  \item Pre-conditions: A post must have been submit by a registered user. 
-
  
  \item Post-conditions: If the post passes the plagiarism test, the new post should be registered on the system. If the post has failed the plagiarism tests the post will be blocked, then the post's user and the module's administrator will be notified. Afterwords a log will be stored. 
 
@@ -318,7 +301,6 @@ Nice To Have
 \subsubsection{Report Post For Plagiarism}
 \begin{enumerate}
  \item Pre-conditions: A post must have been reported by a registered user that has a level X account. 
-
  
  \item Post-conditions: The post is sent to an administrator to follow up on the report. If the administrator finds the post not plagiarised, the post will be registered on the system. If it is found to be plagiarised the post will be blocked, then the post's user and the module's administrator will be notified. Afterwords a log will be stored. 
 
@@ -332,7 +314,6 @@ Nice To Have
 \begin{enumerate}
  \item Pre-conditions: A post must have been submit by a registered user.
 
- 
  \item If the post passes the netiquette test, the new post should be registered on the system. If the post has failed the netiquette tests the post will be blocked, then the post's user and the module's administrator will be notified. Afterwords a log will be stored.  
 
  \item Request and Result Data Structures:\\
@@ -340,11 +321,30 @@ Nice To Have
  \centerline{\includegraphics[scale=0.35]{NetiquetteActivityDiagram}} 
 \end{enumerate}
 
+%%%%%%%%%%%%Taariq%%%%%%%%%%%%%%%%
+\subsubsection{Text Decorating}
+\begin{enumerate}
+ \item Pre-conditions: User must have required level.
+
+\item Post-conditions: User can use the pretty text functionality that he/she qualifies for. 
+
+ \item Request and Result Data Structures:\\
+  \centerline{\includegraphics[scale=0.4]{textDecorator}}\\
+ \item Request and Result Data Structures:\\
+  \centerline{\includegraphics[scale=0.4]{textDecoratorProcess}}\\
+
+\end{enumerate}
+%%%%%%%%%%%%%%%%Taariq%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Self-Organization And View Types}
+\begin{enumerate}
+\item Pre-condition: Have three different structures users can choose from for viewing.
+\item Post-condition: After the user selects their view type, provide option to still be able to switch views. The content must then be displayed according to user's desire.
+\end{enumerate}
+
 \subsection{Required functionality}
 \subsection{Process specifications}
 \subsection{Domain Model}
 \section{Open Issues}
 
-
-  
 \end{document}
